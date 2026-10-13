@@ -33,12 +33,12 @@ with sync_playwright() as p:
         print(f'PASS: seven pages, images and no overflow at {width}px')
     for filename in ['cat-products.html','dog-products.html']:
         page.goto(f'http://127.0.0.1:8001/{filename}')
-        expected = 8 if filename == 'cat-products.html' else 6
+        expected = 8
         assert page.locator('.category-card').count() == expected
         assert page.locator('.sourcing-details').count() == expected
         page.locator('.sourcing-details summary').first.click()
         assert page.locator('.sourcing-details').first.get_attribute('open') is not None
-        assert ('Product options:' if filename == 'cat-products.html' else 'Typical materials') in page.locator('.sourcing-details').first.inner_text()
+        assert 'Product options:' in page.locator('.sourcing-details').first.inner_text()
     page.goto('http://127.0.0.1:8001/index.html')
     assert page.locator('.hero-pet').count() == 2
     assert page.locator('.service-matrix article').count() == 4
