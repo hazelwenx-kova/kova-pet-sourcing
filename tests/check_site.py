@@ -38,7 +38,7 @@ with sync_playwright() as p:
         assert page.locator('.sourcing-details').count() == expected
         page.locator('.sourcing-details summary').first.click()
         assert page.locator('.sourcing-details').first.get_attribute('open') is not None
-        assert 'Typical materials' in page.locator('.sourcing-details').first.inner_text()
+        assert ('Product options:' if filename == 'cat-products.html' else 'Typical materials') in page.locator('.sourcing-details').first.inner_text()
     page.goto('http://127.0.0.1:8001/index.html')
     assert page.locator('.hero-pet').count() == 2
     assert page.locator('.service-matrix article').count() == 4
