@@ -1,0 +1,3774 @@
+{
+  "content": [
+    {
+      "id": "9de111a",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_gap": {
+          "column": "0",
+          "row": "0",
+          "isLinked": true,
+          "unit": "px",
+          "size": 0
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "css_classes": "kova-wp-page consultancy-home",
+        "_title": "KOVA Home — editable page content"
+      },
+      "elements": [
+        {
+          "id": "0374c2c",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+              "column": "0",
+              "row": "0",
+              "isLinked": true,
+              "unit": "px",
+              "size": 0
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "css_classes": "editorial-hero",
+            "_title": "editorial-hero"
+          },
+          "elements": [
+            {
+              "id": "59ba692",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "column": "0",
+                  "row": "0",
+                  "isLinked": true,
+                  "unit": "px",
+                  "size": 0
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "css_classes": "hero-editorial-copy",
+                "_title": "hero-editorial-copy"
+              },
+              "elements": [
+                {
+                  "id": "50d37aa",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p class=\"eyebrow\">INDEPENDENT SOURCING / SHENZHEN, CHINA</p>",
+                    "_css_classes": "kova-copy ",
+                    "_title": "INDEPENDENT SOURCING / SHENZHEN, CHINA",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "24600f0",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Pet Products<br>Sourcing,<br><em>Made Personal.</em>\n",
+                    "header_size": "h1",
+                    "_css_classes": "kova-heading ",
+                    "_title": "Pet ProductsSourcing,Made Personal.\n",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "ec15e14",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p class=\"hero-description\">China sourcing and coordination for international pet brands, importers and retailers. Cat and dog products, with the same attention to your brief.</p>",
+                    "_css_classes": "kova-copy ",
+                    "_title": "China sourcing and coordination for international pet brands, imp",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "50494f6",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "column": "0",
+                      "row": "0",
+                      "isLinked": true,
+                      "unit": "px",
+                      "size": 0
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "css_classes": "actions",
+                    "_title": "actions"
+                  },
+                  "elements": [
+                    {
+                      "id": "4cf4631",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Start a Sourcing Inquiry",
+                        "link": {
+                          "url": "/contact/",
+                          "is_external": "",
+                          "nofollow": ""
+                        },
+                        "size": "sm",
+                        "_css_classes": "kova-button button dark",
+                        "_title": "Start a Sourcing Inquiry ",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "ae5efd7",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore Pet Products",
+                        "link": {
+                          "url": "#pet-products",
+                          "is_external": "",
+                          "nofollow": ""
+                        },
+                        "size": "sm",
+                        "_css_classes": "kova-link text-link",
+                        "_title": "Explore Pet Products ",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "bd0692a",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "column": "0",
+                      "row": "0",
+                      "isLinked": true,
+                      "unit": "px",
+                      "size": 0
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "css_classes": "hero-scope",
+                    "_title": "hero-scope"
+                  },
+                  "elements": [
+                    {
+                      "id": "da4d5d0",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p><span>Supplier research</span></p>",
+                        "_css_classes": "kova-copy ",
+                        "_title": "Supplier research",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "b793966",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p><span>Product development</span></p>",
+                        "_css_classes": "kova-copy ",
+                        "_title": "Product development",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "5945240",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p><span>Production follow-up</span></p>",
+                        "_css_classes": "kova-copy ",
+                        "_title": "Production follow-up",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "c612600",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "column": "0",
+                  "row": "0",
+                  "isLinked": true,
+                  "unit": "px",
+                  "size": 0
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "css_classes": "hero-editorial-art",
+                "_title": "hero-editorial-art"
+              },
+              "elements": [
+                {
+                  "id": "54bd6bc",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "column": "0",
+                      "row": "0",
+                      "isLinked": true,
+                      "unit": "px",
+                      "size": 0
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "css_classes": "hero-pet",
+                    "_title": "hero-pet"
+                  },
+                  "elements": [
+                    {
+                      "id": "e9fae17",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "id": 0,
+                          "url": ""
+                        },
+                        "image_size": "full",
+                        "caption_source": "none",
+                        "link_to": "none",
+                        "_css_classes": "kova-picture  editorial-cat",
+                        "_title": "图片：hero-cat.webp",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "f45afc8",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p><span>FOR CATS</span></p>",
+                        "_css_classes": "kova-copy ",
+                        "_title": "FOR CATS",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "21de4ab",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "column": "0",
+                      "row": "0",
+                      "isLinked": true,
+                      "unit": "px",
+                      "size": 0
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "css_classes": "hero-pet",
+                    "_title": "hero-pet"
+                  },
+                  "elements": [
+                    {
+                      "id": "251c327",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "id": 0,
+                          "url": ""
+                        },
+                        "image_size": "full",
+                        "caption_source": "none",
+                        "link_to": "none",
+                        "_css_classes": "kova-picture  dog-photo dog-panel-0",
+                        "_title": "图片：hero-dog.webp",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "26c18c8",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p><span>FOR DOGS</span></p>",
+                        "_css_classes": "kova-copy ",
+                        "_title": "FOR DOGS",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        },
+        {
+          "id": "2746a19",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+              "column": "0",
+              "row": "0",
+              "isLinked": true,
+              "unit": "px",
+              "size": 0
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "css_classes": "wrap consultancy-services",
+            "_title": "A local connection."
+          },
+          "elements": [
+            {
+              "id": "2869546",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "column": "0",
+                  "row": "0",
+                  "isLinked": true,
+                  "unit": "px",
+                  "size": 0
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "css_classes": "service-feature",
+                "_title": "A local connection."
+              },
+              "elements": [
+                {
+                  "id": "184451f",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p class=\"eyebrow\">HOW KOVA CAN HELP</p>",
+                    "_css_classes": "kova-copy ",
+                    "_title": "HOW KOVA CAN HELP",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "011437a",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "A local connection.<br>A clearer process.",
+                    "header_size": "h2",
+                    "_css_classes": "kova-heading ",
+                    "_title": "A local connection.A clearer process.",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "dd9e66e",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Practical support between your product brief and manufacturer conversations in China.</p>",
+                    "_css_classes": "kova-copy ",
+                    "_title": "Practical support between your product brief and manufacturer con",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "fc6a2e0",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Explore Sourcing Services",
+                    "link": {
+                      "url": "/sourcing-services/",
+                      "is_external": "",
+                      "nofollow": ""
+                    },
+                    "size": "sm",
+                    "_css_classes": "kova-link text-link",
+                    "_title": "Explore Sourcing Services ",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "c72a5f6",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p class=\"feature-footnote\">Independent China sourcing and supplier coordination.</p>",
+                    "_css_classes": "kova-copy ",
+                    "_title": "Independent China sourcing and supplier coordination.",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "1c29d7c",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "column": "0",
+                  "row": "0",
+                  "isLinked": true,
+                  "unit": "px",
+                  "size": 0
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "css_classes": "service-matrix",
+                "_title": "service-matrix"
+              },
+              "elements": [
+                {
+                  "id": "b02ef80",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "column": "0",
+                      "row": "0",
+                      "isLinked": true,
+                      "unit": "px",
+                      "size": 0
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "css_classes": "kova-article",
+                    "_title": " kova-article"
+                  },
+                  "elements": [
+                    {
+                      "id": "a3fc916",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "column": "0",
+                          "row": "0",
+                          "isLinked": true,
+                          "unit": "px",
+                          "size": 0
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "css_classes": "service-number",
+                        "_title": "service-number"
+                      },
+                      "elements": [],
+                      "isInner": true
+                    },
+                    {
+                      "id": "6b6069e",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Find the right starting point.",
+                        "header_size": "h3",
+                        "_css_classes": "kova-heading ",
+                        "_title": "Find the right starting point.",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "f894b84",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p class=\"service-label\">Supplier Research &amp; Shortlisting</p>",
+                        "_css_classes": "kova-copy ",
+                        "_title": "Supplier Research & Shortlisting",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "8770808",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Research potential manufacturers and compare their fit with your specifications and target market.</p>",
+                        "_css_classes": "kova-copy ",
+                        "_title": "Research potential manufacturers and compare their fit with your ",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "a33ca41",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "column": "0",
+                      "row": "0",
+                      "isLinked": true,
+                      "unit": "px",
+                      "size": 0
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "css_classes": "kova-article",
+                    "_title": " kova-article"
+                  },
+                  "elements": [
+                    {
+                      "id": "e0ce8bf",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "column": "0",
+                          "row": "0",
+                          "isLinked": true,
+                          "unit": "px",
+                          "size": 0
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "css_classes": "service-number",
+                        "_title": "service-number"
+                      },
+                      "elements": [],
+                      "isInner": true
+                    },
+                    {
+                      "id": "49ba941",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Develop the details.",
+                        "header_size": "h3",
+                        "_css_classes": "kova-heading ",
+                        "_title": "Develop the details.",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "70b1e1f",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p class=\"service-label\">Customisation &amp; OEM/ODM Coordination</p>",
+                        "_css_classes": "kova-copy ",
+                        "_title": "Customisation & OEM/ODM Coordination",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "c86ae46",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Coordinate materials, dimensions, colours, branding and samples, with feasibility confirmed by suppliers.</p>",
+                        "_css_classes": "kova-copy ",
+                        "_title": "Coordinate materials, dimensions, colours, branding and samples, ",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "bef1b15",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "column": "0",
+                      "row": "0",
+                      "isLinked": true,
+                      "unit": "px",
+                      "size": 0
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "css_classes": "kova-article",
+                    "_title": " kova-article"
+                  },
+                  "elements": [
+                    {
+                      "id": "d745429",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "column": "0",
+                          "row": "0",
+                          "isLinked": true,
+                          "unit": "px",
+                          "size": 0
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "css_classes": "service-number",
+                        "_title": "service-number"
+                      },
+                      "elements": [],
+                      "isInner": true
+                    },
+                    {
+                      "id": "986614c",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Keep production moving.",
+                        "header_size": "h3",
+                        "_css_classes": "kova-heading ",
+                        "_title": "Keep production moving.",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "65ffea9",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p class=\"service-label\">Factory Visits &amp; Production Follow-up</p>",
+                        "_css_classes": "kova-copy ",
+                        "_title": "Factory Visits & Production Follow-up",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "2454d98",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Arrange visits where appropriate and follow up on agreed milestones and reported quality issues.</p>",
+                        "_css_classes": "kova-copy ",
+                        "_title": "Arrange visits where appropriate and follow up on agreed mileston",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "0a05e7d",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "column": "0",
+                      "row": "0",
+                      "isLinked": true,
+                      "unit": "px",
+                      "size": 0
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "css_classes": "kova-article",
+                    "_title": " kova-article"
+                  },
+                  "elements": [
+                    {
+                      "id": "5d5c764",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "column": "0",
+                          "row": "0",
+                          "isLinked": true,
+                          "unit": "px",
+                          "size": 0
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "css_classes": "service-number",
+                        "_title": "service-number"
+                      },
+                      "elements": [],
+                      "isInner": true
+                    },
+                    {
+                      "id": "2ec9b5a",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Connect the final steps.",
+                        "header_size": "h3",
+                        "_css_classes": "kova-heading ",
+                        "_title": "Connect the final steps.",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "30bf871",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p class=\"service-label\">Order &amp; Shipment Coordination</p>",
+                        "_css_classes": "kova-copy ",
+                        "_title": "Order & Shipment Coordination",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "3e4c991",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Follow up on packing and shipment details with suppliers and your chosen logistics partners.</p>",
+                        "_css_classes": "kova-copy ",
+                        "_title": "Follow up on packing and shipment details with suppliers and your",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        },
+        {
+          "id": "dfef0eb",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+              "column": "0",
+              "row": "0",
+              "isLinked": true,
+              "unit": "px",
+              "size": 0
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "css_classes": "wrap product-editorial",
+            "_title": "Product possibilities,\nshaped around your brief.",
+            "_element_id": "pet-products"
+          },
+          "elements": [
+            {
+              "id": "ec6c6ae",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "column": "0",
+                  "row": "0",
+                  "isLinked": true,
+                  "unit": "px",
+                  "size": 0
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "css_classes": "section-head",
+                "_title": "Product possibilities,\nshaped around your brief."
+              },
+              "elements": [
+                {
+                  "id": "6025a4b",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "column": "0",
+                      "row": "0",
+                      "isLinked": true,
+                      "unit": "px",
+                      "size": 0
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "css_classes": "",
+                    "_title": "Product possibilities,\nshaped around your brief."
+                  },
+                  "elements": [
+                    {
+                      "id": "0e4d579",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p class=\"eyebrow\">CAT &amp; DOG PRODUCT SOURCING</p>",
+                        "_css_classes": "kova-copy ",
+                        "_title": "CAT & DOG PRODUCT SOURCING",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "f278fc3",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Product possibilities,\nshaped around your brief.",
+                        "header_size": "h2",
+                        "_css_classes": "kova-heading ",
+                        "_title": "Product possibilities,\nshaped around your brief.",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "1c5802b",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Explore materials, forms and everyday essentials for your next collection.<br>Explore categories and share your requirements.</p>",
+                    "_css_classes": "kova-copy ",
+                    "_title": "Explore materials, forms and everyday essentials for your next co",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "07d8bbb",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "column": "0",
+                  "row": "0",
+                  "isLinked": true,
+                  "unit": "px",
+                  "size": 0
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "css_classes": "category-grid",
+                "_title": "category-grid"
+              },
+              "elements": [
+                {
+                  "id": "42d6b18",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "column": "0",
+                      "row": "0",
+                      "isLinked": true,
+                      "unit": "px",
+                      "size": 0
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "css_classes": "category-card kova-article",
+                    "_title": "category-card kova-article"
+                  },
+                  "elements": [
+                    {
+                      "id": "8972abf",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "column": "0",
+                          "row": "0",
+                          "isLinked": true,
+                          "unit": "px",
+                          "size": 0
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "css_classes": "category-image",
+                        "_title": "category-image"
+                      },
+                      "elements": [
+                        {
+                          "id": "426f387",
+                          "elType": "widget",
+                          "widgetType": "image",
+                          "settings": {
+                            "image": {
+                              "id": 0,
+                              "url": ""
+                            },
+                            "image_size": "full",
+                            "caption_source": "none",
+                            "link_to": "none",
+                            "_css_classes": "kova-picture  panel-0",
+                            "_title": "图片：cat-beds.webp",
+                            "_margin": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": true
+                            }
+                          },
+                          "elements": [],
+                          "isInner": false
+                        }
+                      ],
+                      "isInner": true
+                    },
+                    {
+                      "id": "82eef15",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "column": "0",
+                          "row": "0",
+                          "isLinked": true,
+                          "unit": "px",
+                          "size": 0
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "css_classes": "category-copy",
+                        "_title": "category-copy"
+                      },
+                      "elements": [
+                        {
+                          "id": "c218625",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "Beds & Comfort",
+                            "header_size": "h3",
+                            "_css_classes": "kova-heading ",
+                            "_title": "Beds & Comfort",
+                            "_margin": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": true
+                            }
+                          },
+                          "elements": [],
+                          "isInner": false
+                        },
+                        {
+                          "id": "2ac6bf2",
+                          "elType": "container",
+                          "settings": {
+                            "content_width": "full",
+                            "flex_direction": "column",
+                            "flex_gap": {
+                              "column": "0",
+                              "row": "0",
+                              "isLinked": true,
+                              "unit": "px",
+                              "size": 0
+                            },
+                            "padding": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": true
+                            },
+                            "css_classes": "home-category-links",
+                            "_title": "home-category-links"
+                          },
+                          "elements": [
+                            {
+                              "id": "09db4a6",
+                              "elType": "widget",
+                              "widgetType": "button",
+                              "settings": {
+                                "text": "Cat Products",
+                                "link": {
+                                  "url": "/cat-products/",
+                                  "is_external": "",
+                                  "nofollow": ""
+                                },
+                                "size": "sm",
+                                "_css_classes": "kova-link text-link",
+                                "_title": "Cat Products ",
+                                "_margin": {
+                                  "unit": "px",
+                                  "top": "0",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": true
+                                }
+                              },
+                              "elements": [],
+                              "isInner": false
+                            },
+                            {
+                              "id": "e3d8552",
+                              "elType": "widget",
+                              "widgetType": "button",
+                              "settings": {
+                                "text": "Dog Products",
+                                "link": {
+                                  "url": "/dog-products/",
+                                  "is_external": "",
+                                  "nofollow": ""
+                                },
+                                "size": "sm",
+                                "_css_classes": "kova-link text-link",
+                                "_title": "Dog Products ",
+                                "_margin": {
+                                  "unit": "px",
+                                  "top": "0",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": true
+                                }
+                              },
+                              "elements": [],
+                              "isInner": false
+                            }
+                          ],
+                          "isInner": true
+                        }
+                      ],
+                      "isInner": true
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "7b36439",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "column": "0",
+                      "row": "0",
+                      "isLinked": true,
+                      "unit": "px",
+                      "size": 0
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "css_classes": "category-card kova-article",
+                    "_title": "category-card kova-article"
+                  },
+                  "elements": [
+                    {
+                      "id": "17ca286",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "column": "0",
+                          "row": "0",
+                          "isLinked": true,
+                          "unit": "px",
+                          "size": 0
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "css_classes": "category-image",
+                        "_title": "category-image"
+                      },
+                      "elements": [
+                        {
+                          "id": "424216f",
+                          "elType": "widget",
+                          "widgetType": "image",
+                          "settings": {
+                            "image": {
+                              "id": 0,
+                              "url": ""
+                            },
+                            "image_size": "full",
+                            "caption_source": "none",
+                            "link_to": "none",
+                            "_css_classes": "kova-picture  panel-3",
+                            "_title": "图片：feeding.webp",
+                            "_margin": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": true
+                            }
+                          },
+                          "elements": [],
+                          "isInner": false
+                        }
+                      ],
+                      "isInner": true
+                    },
+                    {
+                      "id": "34723ed",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "column": "0",
+                          "row": "0",
+                          "isLinked": true,
+                          "unit": "px",
+                          "size": 0
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "css_classes": "category-copy",
+                        "_title": "category-copy"
+                      },
+                      "elements": [
+                        {
+                          "id": "b10ff23",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "Feeding & Drinking",
+                            "header_size": "h3",
+                            "_css_classes": "kova-heading ",
+                            "_title": "Feeding & Drinking",
+                            "_margin": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": true
+                            }
+                          },
+                          "elements": [],
+                          "isInner": false
+                        },
+                        {
+                          "id": "3f1c2ab",
+                          "elType": "container",
+                          "settings": {
+                            "content_width": "full",
+                            "flex_direction": "column",
+                            "flex_gap": {
+                              "column": "0",
+                              "row": "0",
+                              "isLinked": true,
+                              "unit": "px",
+                              "size": 0
+                            },
+                            "padding": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": true
+                            },
+                            "css_classes": "home-category-links",
+                            "_title": "home-category-links"
+                          },
+                          "elements": [
+                            {
+                              "id": "9034a8d",
+                              "elType": "widget",
+                              "widgetType": "button",
+                              "settings": {
+                                "text": "Cat Products",
+                                "link": {
+                                  "url": "/cat-products/",
+                                  "is_external": "",
+                                  "nofollow": ""
+                                },
+                                "size": "sm",
+                                "_css_classes": "kova-link text-link",
+                                "_title": "Cat Products ",
+                                "_margin": {
+                                  "unit": "px",
+                                  "top": "0",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": true
+                                }
+                              },
+                              "elements": [],
+                              "isInner": false
+                            },
+                            {
+                              "id": "36bf2a9",
+                              "elType": "widget",
+                              "widgetType": "button",
+                              "settings": {
+                                "text": "Dog Products",
+                                "link": {
+                                  "url": "/dog-products/",
+                                  "is_external": "",
+                                  "nofollow": ""
+                                },
+                                "size": "sm",
+                                "_css_classes": "kova-link text-link",
+                                "_title": "Dog Products ",
+                                "_margin": {
+                                  "unit": "px",
+                                  "top": "0",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": true
+                                }
+                              },
+                              "elements": [],
+                              "isInner": false
+                            }
+                          ],
+                          "isInner": true
+                        }
+                      ],
+                      "isInner": true
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "51cd97d",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "column": "0",
+                      "row": "0",
+                      "isLinked": true,
+                      "unit": "px",
+                      "size": 0
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "css_classes": "category-card kova-article",
+                    "_title": "category-card kova-article"
+                  },
+                  "elements": [
+                    {
+                      "id": "a6b9d52",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "column": "0",
+                          "row": "0",
+                          "isLinked": true,
+                          "unit": "px",
+                          "size": 0
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "css_classes": "category-image",
+                        "_title": "category-image"
+                      },
+                      "elements": [
+                        {
+                          "id": "b6cd75f",
+                          "elType": "widget",
+                          "widgetType": "image",
+                          "settings": {
+                            "image": {
+                              "id": 0,
+                              "url": ""
+                            },
+                            "image_size": "full",
+                            "caption_source": "none",
+                            "link_to": "none",
+                            "_css_classes": "kova-picture  home-toys",
+                            "_title": "图片：home-toys.webp",
+                            "_margin": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": true
+                            }
+                          },
+                          "elements": [],
+                          "isInner": false
+                        }
+                      ],
+                      "isInner": true
+                    },
+                    {
+                      "id": "7bec5a9",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "column": "0",
+                          "row": "0",
+                          "isLinked": true,
+                          "unit": "px",
+                          "size": 0
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "css_classes": "category-copy",
+                        "_title": "category-copy"
+                      },
+                      "elements": [
+                        {
+                          "id": "70ffa98",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "Toys & Enrichment",
+                            "header_size": "h3",
+                            "_css_classes": "kova-heading ",
+                            "_title": "Toys & Enrichment",
+                            "_margin": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": true
+                            }
+                          },
+                          "elements": [],
+                          "isInner": false
+                        },
+                        {
+                          "id": "8d030b2",
+                          "elType": "container",
+                          "settings": {
+                            "content_width": "full",
+                            "flex_direction": "column",
+                            "flex_gap": {
+                              "column": "0",
+                              "row": "0",
+                              "isLinked": true,
+                              "unit": "px",
+                              "size": 0
+                            },
+                            "padding": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": true
+                            },
+                            "css_classes": "home-category-links",
+                            "_title": "home-category-links"
+                          },
+                          "elements": [
+                            {
+                              "id": "5fdbc93",
+                              "elType": "widget",
+                              "widgetType": "button",
+                              "settings": {
+                                "text": "Cat Products",
+                                "link": {
+                                  "url": "/cat-products/",
+                                  "is_external": "",
+                                  "nofollow": ""
+                                },
+                                "size": "sm",
+                                "_css_classes": "kova-link text-link",
+                                "_title": "Cat Products ",
+                                "_margin": {
+                                  "unit": "px",
+                                  "top": "0",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": true
+                                }
+                              },
+                              "elements": [],
+                              "isInner": false
+                            },
+                            {
+                              "id": "4f3951e",
+                              "elType": "widget",
+                              "widgetType": "button",
+                              "settings": {
+                                "text": "Dog Products",
+                                "link": {
+                                  "url": "/dog-products/",
+                                  "is_external": "",
+                                  "nofollow": ""
+                                },
+                                "size": "sm",
+                                "_css_classes": "kova-link text-link",
+                                "_title": "Dog Products ",
+                                "_margin": {
+                                  "unit": "px",
+                                  "top": "0",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": true
+                                }
+                              },
+                              "elements": [],
+                              "isInner": false
+                            }
+                          ],
+                          "isInner": true
+                        }
+                      ],
+                      "isInner": true
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "628a50a",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "column": "0",
+                      "row": "0",
+                      "isLinked": true,
+                      "unit": "px",
+                      "size": 0
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "css_classes": "category-card kova-article",
+                    "_title": "category-card kova-article"
+                  },
+                  "elements": [
+                    {
+                      "id": "e30d575",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "column": "0",
+                          "row": "0",
+                          "isLinked": true,
+                          "unit": "px",
+                          "size": 0
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "css_classes": "category-image",
+                        "_title": "category-image"
+                      },
+                      "elements": [
+                        {
+                          "id": "c5a9979",
+                          "elType": "widget",
+                          "widgetType": "image",
+                          "settings": {
+                            "image": {
+                              "id": 0,
+                              "url": ""
+                            },
+                            "image_size": "full",
+                            "caption_source": "none",
+                            "link_to": "none",
+                            "_css_classes": "kova-picture  panel-5",
+                            "_title": "图片：grooming.webp",
+                            "_margin": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": true
+                            }
+                          },
+                          "elements": [],
+                          "isInner": false
+                        }
+                      ],
+                      "isInner": true
+                    },
+                    {
+                      "id": "a3fb850",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "column": "0",
+                          "row": "0",
+                          "isLinked": true,
+                          "unit": "px",
+                          "size": 0
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "css_classes": "category-copy",
+                        "_title": "category-copy"
+                      },
+                      "elements": [
+                        {
+                          "id": "30973d7",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "Grooming & Care",
+                            "header_size": "h3",
+                            "_css_classes": "kova-heading ",
+                            "_title": "Grooming & Care",
+                            "_margin": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": true
+                            }
+                          },
+                          "elements": [],
+                          "isInner": false
+                        },
+                        {
+                          "id": "4075495",
+                          "elType": "container",
+                          "settings": {
+                            "content_width": "full",
+                            "flex_direction": "column",
+                            "flex_gap": {
+                              "column": "0",
+                              "row": "0",
+                              "isLinked": true,
+                              "unit": "px",
+                              "size": 0
+                            },
+                            "padding": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": true
+                            },
+                            "css_classes": "home-category-links",
+                            "_title": "home-category-links"
+                          },
+                          "elements": [
+                            {
+                              "id": "a98219e",
+                              "elType": "widget",
+                              "widgetType": "button",
+                              "settings": {
+                                "text": "Cat Products",
+                                "link": {
+                                  "url": "/cat-products/",
+                                  "is_external": "",
+                                  "nofollow": ""
+                                },
+                                "size": "sm",
+                                "_css_classes": "kova-link text-link",
+                                "_title": "Cat Products ",
+                                "_margin": {
+                                  "unit": "px",
+                                  "top": "0",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": true
+                                }
+                              },
+                              "elements": [],
+                              "isInner": false
+                            },
+                            {
+                              "id": "1d331c9",
+                              "elType": "widget",
+                              "widgetType": "button",
+                              "settings": {
+                                "text": "Dog Products",
+                                "link": {
+                                  "url": "/dog-products/",
+                                  "is_external": "",
+                                  "nofollow": ""
+                                },
+                                "size": "sm",
+                                "_css_classes": "kova-link text-link",
+                                "_title": "Dog Products ",
+                                "_margin": {
+                                  "unit": "px",
+                                  "top": "0",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": true
+                                }
+                              },
+                              "elements": [],
+                              "isInner": false
+                            }
+                          ],
+                          "isInner": true
+                        }
+                      ],
+                      "isInner": true
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "86a692d",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "column": "0",
+                      "row": "0",
+                      "isLinked": true,
+                      "unit": "px",
+                      "size": 0
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "css_classes": "category-card kova-article",
+                    "_title": "category-card kova-article"
+                  },
+                  "elements": [
+                    {
+                      "id": "b9a2fac",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "column": "0",
+                          "row": "0",
+                          "isLinked": true,
+                          "unit": "px",
+                          "size": 0
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "css_classes": "category-image",
+                        "_title": "category-image"
+                      },
+                      "elements": [
+                        {
+                          "id": "fa574b4",
+                          "elType": "widget",
+                          "widgetType": "image",
+                          "settings": {
+                            "image": {
+                              "id": 0,
+                              "url": ""
+                            },
+                            "image_size": "full",
+                            "caption_source": "none",
+                            "link_to": "none",
+                            "_css_classes": "kova-picture  panel-4",
+                            "_title": "图片：cat-travel.webp",
+                            "_margin": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": true
+                            }
+                          },
+                          "elements": [],
+                          "isInner": false
+                        }
+                      ],
+                      "isInner": true
+                    },
+                    {
+                      "id": "25b5c86",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "column": "0",
+                          "row": "0",
+                          "isLinked": true,
+                          "unit": "px",
+                          "size": 0
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "css_classes": "category-copy",
+                        "_title": "category-copy"
+                      },
+                      "elements": [
+                        {
+                          "id": "e0916c1",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "Travel & Carriers",
+                            "header_size": "h3",
+                            "_css_classes": "kova-heading ",
+                            "_title": "Travel & Carriers",
+                            "_margin": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": true
+                            }
+                          },
+                          "elements": [],
+                          "isInner": false
+                        },
+                        {
+                          "id": "a87e90e",
+                          "elType": "container",
+                          "settings": {
+                            "content_width": "full",
+                            "flex_direction": "column",
+                            "flex_gap": {
+                              "column": "0",
+                              "row": "0",
+                              "isLinked": true,
+                              "unit": "px",
+                              "size": 0
+                            },
+                            "padding": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": true
+                            },
+                            "css_classes": "home-category-links",
+                            "_title": "home-category-links"
+                          },
+                          "elements": [
+                            {
+                              "id": "47edac6",
+                              "elType": "widget",
+                              "widgetType": "button",
+                              "settings": {
+                                "text": "Cat Products",
+                                "link": {
+                                  "url": "/cat-products/",
+                                  "is_external": "",
+                                  "nofollow": ""
+                                },
+                                "size": "sm",
+                                "_css_classes": "kova-link text-link",
+                                "_title": "Cat Products ",
+                                "_margin": {
+                                  "unit": "px",
+                                  "top": "0",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": true
+                                }
+                              },
+                              "elements": [],
+                              "isInner": false
+                            },
+                            {
+                              "id": "c1826c9",
+                              "elType": "widget",
+                              "widgetType": "button",
+                              "settings": {
+                                "text": "Dog Products",
+                                "link": {
+                                  "url": "/dog-products/",
+                                  "is_external": "",
+                                  "nofollow": ""
+                                },
+                                "size": "sm",
+                                "_css_classes": "kova-link text-link",
+                                "_title": "Dog Products ",
+                                "_margin": {
+                                  "unit": "px",
+                                  "top": "0",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": true
+                                }
+                              },
+                              "elements": [],
+                              "isInner": false
+                            }
+                          ],
+                          "isInner": true
+                        }
+                      ],
+                      "isInner": true
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "c990962",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "column": "0",
+                      "row": "0",
+                      "isLinked": true,
+                      "unit": "px",
+                      "size": 0
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "css_classes": "category-card kova-article",
+                    "_title": "category-card kova-article"
+                  },
+                  "elements": [
+                    {
+                      "id": "141ccca",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "column": "0",
+                          "row": "0",
+                          "isLinked": true,
+                          "unit": "px",
+                          "size": 0
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "css_classes": "category-image",
+                        "_title": "category-image"
+                      },
+                      "elements": [
+                        {
+                          "id": "7139e12",
+                          "elType": "widget",
+                          "widgetType": "image",
+                          "settings": {
+                            "image": {
+                              "id": 0,
+                              "url": ""
+                            },
+                            "image_size": "full",
+                            "caption_source": "none",
+                            "link_to": "none",
+                            "_css_classes": "kova-picture  dog-photo dog-panel-1",
+                            "_title": "图片：dog-walking.webp",
+                            "_margin": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": true
+                            }
+                          },
+                          "elements": [],
+                          "isInner": false
+                        }
+                      ],
+                      "isInner": true
+                    },
+                    {
+                      "id": "226e442",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "column": "0",
+                          "row": "0",
+                          "isLinked": true,
+                          "unit": "px",
+                          "size": 0
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "css_classes": "category-copy",
+                        "_title": "category-copy"
+                      },
+                      "elements": [
+                        {
+                          "id": "502a85c",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "Collars, Harnesses & Leashes",
+                            "header_size": "h3",
+                            "_css_classes": "kova-heading ",
+                            "_title": "Collars, Harnesses & Leashes",
+                            "_margin": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": true
+                            }
+                          },
+                          "elements": [],
+                          "isInner": false
+                        },
+                        {
+                          "id": "430fbe0",
+                          "elType": "container",
+                          "settings": {
+                            "content_width": "full",
+                            "flex_direction": "column",
+                            "flex_gap": {
+                              "column": "0",
+                              "row": "0",
+                              "isLinked": true,
+                              "unit": "px",
+                              "size": 0
+                            },
+                            "padding": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": true
+                            },
+                            "css_classes": "home-category-links",
+                            "_title": "home-category-links"
+                          },
+                          "elements": [
+                            {
+                              "id": "a663507",
+                              "elType": "widget",
+                              "widgetType": "button",
+                              "settings": {
+                                "text": "Dog Products",
+                                "link": {
+                                  "url": "/dog-products/",
+                                  "is_external": "",
+                                  "nofollow": ""
+                                },
+                                "size": "sm",
+                                "_css_classes": "kova-link text-link",
+                                "_title": "Dog Products ",
+                                "_margin": {
+                                  "unit": "px",
+                                  "top": "0",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": true
+                                }
+                              },
+                              "elements": [],
+                              "isInner": false
+                            }
+                          ],
+                          "isInner": true
+                        }
+                      ],
+                      "isInner": true
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "ffab374",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p class=\"home-category-note\">Looking for cat trees or scratching furniture? <a class=\"text-link\" href=\"/cat-products/\">Explore cat-specific categories <svg class=\"arrow-icon\" aria-hidden=\"true\" viewbox=\"0 0 20 20\" fill=\"none\"><path d=\"M5 15 15 5M5 5h10v10\" stroke=\"currentColor\" stroke-width=\"1.2\"></path></svg></a></p>",
+                "_css_classes": "kova-copy ",
+                "_title": "Looking for cat trees or scratching furniture? Explore cat-specif",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": [],
+              "isInner": false
+            },
+            {
+              "id": "fab66c6",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p class=\"asset-note\">AI-generated imagery is used for illustration only. Product details and availability are subject to supplier confirmation.</p>",
+                "_css_classes": "kova-copy ",
+                "_title": "AI-generated imagery is used for illustration only. Product detai",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": [],
+              "isInner": false
+            }
+          ],
+          "isInner": true
+        },
+        {
+          "id": "420c0fa",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+              "column": "0",
+              "row": "0",
+              "isLinked": true,
+              "unit": "px",
+              "size": 0
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "css_classes": "working-band",
+            "_title": "Direct communication."
+          },
+          "elements": [
+            {
+              "id": "a4059f7",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "column": "0",
+                  "row": "0",
+                  "isLinked": true,
+                  "unit": "px",
+                  "size": 0
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "css_classes": "wrap working-layout",
+                "_title": "Direct communication."
+              },
+              "elements": [
+                {
+                  "id": "f18e9d9",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "column": "0",
+                      "row": "0",
+                      "isLinked": true,
+                      "unit": "px",
+                      "size": 0
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "css_classes": "why-editorial",
+                    "_title": "Direct communication."
+                  },
+                  "elements": [
+                    {
+                      "id": "1b09f2b",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p class=\"eyebrow\">WHY KOVA</p>",
+                        "_css_classes": "kova-copy ",
+                        "_title": "WHY KOVA",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "57090e4",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Direct communication.<br>Personal follow-through.",
+                        "header_size": "h2",
+                        "_css_classes": "kova-heading ",
+                        "_title": "Direct communication.Personal follow-through.",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "9e325d2",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Shenzhen-based coordination with a flexible scope for small and medium-sized pet brands.</p>",
+                        "_css_classes": "kova-copy ",
+                        "_title": "Shenzhen-based coordination with a flexible scope for small and m",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "ae17035",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "column": "0",
+                          "row": "0",
+                          "isLinked": true,
+                          "unit": "px",
+                          "size": 0
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "css_classes": "experience-note",
+                        "_title": "experience-note"
+                      },
+                      "elements": [
+                        {
+                          "id": "48e390e",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<p><span class=\"experience-number\">8</span></p>",
+                            "_css_classes": "kova-copy ",
+                            "_title": "8",
+                            "_margin": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": true
+                            }
+                          },
+                          "elements": [],
+                          "isInner": false
+                        },
+                        {
+                          "id": "b795b6e",
+                          "elType": "container",
+                          "settings": {
+                            "content_width": "full",
+                            "flex_direction": "column",
+                            "flex_gap": {
+                              "column": "0",
+                              "row": "0",
+                              "isLinked": true,
+                              "unit": "px",
+                              "size": 0
+                            },
+                            "padding": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": true
+                            },
+                            "css_classes": "",
+                            "_title": "Content group"
+                          },
+                          "elements": [
+                            {
+                              "id": "5acdb57",
+                              "elType": "widget",
+                              "widgetType": "text-editor",
+                              "settings": {
+                                "editor": "<p class=\"experience-qualifier\">Approximately</p>",
+                                "_css_classes": "kova-copy ",
+                                "_title": "Approximately",
+                                "_margin": {
+                                  "unit": "px",
+                                  "top": "0",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": true
+                                }
+                              },
+                              "elements": [],
+                              "isInner": false
+                            },
+                            {
+                              "id": "0d0c159",
+                              "elType": "widget",
+                              "widgetType": "heading",
+                              "settings": {
+                                "title": "Years of international business & sourcing experience",
+                                "header_size": "h3",
+                                "_css_classes": "kova-heading ",
+                                "_title": "Years of international business & sourcing experience",
+                                "_margin": {
+                                  "unit": "px",
+                                  "top": "0",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": true
+                                }
+                              },
+                              "elements": [],
+                              "isInner": false
+                            },
+                            {
+                              "id": "eea9227",
+                              "elType": "widget",
+                              "widgetType": "text-editor",
+                              "settings": {
+                                "editor": "<p>Experience in supplier communication, sourcing coordination, production follow-up, quality issue resolution and international order management.</p>",
+                                "_css_classes": "kova-copy ",
+                                "_title": "Experience in supplier communication, sourcing coordination, prod",
+                                "_margin": {
+                                  "unit": "px",
+                                  "top": "0",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": true
+                                }
+                              },
+                              "elements": [],
+                              "isInner": false
+                            }
+                          ],
+                          "isInner": true
+                        }
+                      ],
+                      "isInner": true
+                    },
+                    {
+                      "id": "8dc2768",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "About KOVA",
+                        "link": {
+                          "url": "/about-kova/",
+                          "is_external": "",
+                          "nofollow": ""
+                        },
+                        "size": "sm",
+                        "_css_classes": "kova-link text-link",
+                        "_title": "About KOVA ",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "0c8968c",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "column": "0",
+                      "row": "0",
+                      "isLinked": true,
+                      "unit": "px",
+                      "size": 0
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "css_classes": "process-editorial",
+                    "_title": "process-editorial"
+                  },
+                  "elements": [
+                    {
+                      "id": "ea00cf6",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "column": "0",
+                          "row": "0",
+                          "isLinked": true,
+                          "unit": "px",
+                          "size": 0
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "css_classes": "process-header",
+                        "_title": "process-header"
+                      },
+                      "elements": [
+                        {
+                          "id": "572028a",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<p class=\"eyebrow\">HOW WE WORK</p>",
+                            "_css_classes": "kova-copy ",
+                            "_title": "HOW WE WORK",
+                            "_margin": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": true
+                            }
+                          },
+                          "elements": [],
+                          "isInner": false
+                        },
+                        {
+                          "id": "389b68b",
+                          "elType": "widget",
+                          "widgetType": "button",
+                          "settings": {
+                            "text": "Full Process",
+                            "link": {
+                              "url": "/how-we-work/",
+                              "is_external": "",
+                              "nofollow": ""
+                            },
+                            "size": "sm",
+                            "_css_classes": "kova-link text-link",
+                            "_title": "Full Process ",
+                            "_margin": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": true
+                            }
+                          },
+                          "elements": [],
+                          "isInner": false
+                        }
+                      ],
+                      "isInner": true
+                    },
+                    {
+                      "id": "7f19099",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "column": "0",
+                          "row": "0",
+                          "isLinked": true,
+                          "unit": "px",
+                          "size": 0
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "css_classes": "consultancy-steps",
+                        "_title": "consultancy-steps"
+                      },
+                      "elements": [
+                        {
+                          "id": "609968f",
+                          "elType": "container",
+                          "settings": {
+                            "content_width": "full",
+                            "flex_direction": "column",
+                            "flex_gap": {
+                              "column": "0",
+                              "row": "0",
+                              "isLinked": true,
+                              "unit": "px",
+                              "size": 0
+                            },
+                            "padding": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": true
+                            },
+                            "css_classes": "kova-list-item",
+                            "_title": " kova-list-item"
+                          },
+                          "elements": [
+                            {
+                              "id": "2017c0d",
+                              "elType": "widget",
+                              "widgetType": "text-editor",
+                              "settings": {
+                                "editor": "<p><span>01</span></p>",
+                                "_css_classes": "kova-copy ",
+                                "_title": "01",
+                                "_margin": {
+                                  "unit": "px",
+                                  "top": "0",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": true
+                                }
+                              },
+                              "elements": [],
+                              "isInner": false
+                            },
+                            {
+                              "id": "f810361",
+                              "elType": "container",
+                              "settings": {
+                                "content_width": "full",
+                                "flex_direction": "column",
+                                "flex_gap": {
+                                  "column": "0",
+                                  "row": "0",
+                                  "isLinked": true,
+                                  "unit": "px",
+                                  "size": 0
+                                },
+                                "padding": {
+                                  "unit": "px",
+                                  "top": "0",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": true
+                                },
+                                "css_classes": "",
+                                "_title": "Content group"
+                              },
+                              "elements": [
+                                {
+                                  "id": "c8d30d0",
+                                  "elType": "widget",
+                                  "widgetType": "heading",
+                                  "settings": {
+                                    "title": "Share your requirements",
+                                    "header_size": "h3",
+                                    "_css_classes": "kova-heading ",
+                                    "_title": "Share your requirements",
+                                    "_margin": {
+                                      "unit": "px",
+                                      "top": "0",
+                                      "right": "0",
+                                      "bottom": "0",
+                                      "left": "0",
+                                      "isLinked": true
+                                    }
+                                  },
+                                  "elements": [],
+                                  "isInner": false
+                                },
+                                {
+                                  "id": "120cfa5",
+                                  "elType": "widget",
+                                  "widgetType": "text-editor",
+                                  "settings": {
+                                    "editor": "<p>Product, materials, quantities and timing.</p>",
+                                    "_css_classes": "kova-copy ",
+                                    "_title": "Product, materials, quantities and timing.",
+                                    "_margin": {
+                                      "unit": "px",
+                                      "top": "0",
+                                      "right": "0",
+                                      "bottom": "0",
+                                      "left": "0",
+                                      "isLinked": true
+                                    }
+                                  },
+                                  "elements": [],
+                                  "isInner": false
+                                }
+                              ],
+                              "isInner": true
+                            }
+                          ],
+                          "isInner": true
+                        },
+                        {
+                          "id": "163fe13",
+                          "elType": "container",
+                          "settings": {
+                            "content_width": "full",
+                            "flex_direction": "column",
+                            "flex_gap": {
+                              "column": "0",
+                              "row": "0",
+                              "isLinked": true,
+                              "unit": "px",
+                              "size": 0
+                            },
+                            "padding": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": true
+                            },
+                            "css_classes": "kova-list-item",
+                            "_title": " kova-list-item"
+                          },
+                          "elements": [
+                            {
+                              "id": "7873659",
+                              "elType": "widget",
+                              "widgetType": "text-editor",
+                              "settings": {
+                                "editor": "<p><span>02</span></p>",
+                                "_css_classes": "kova-copy ",
+                                "_title": "02",
+                                "_margin": {
+                                  "unit": "px",
+                                  "top": "0",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": true
+                                }
+                              },
+                              "elements": [],
+                              "isInner": false
+                            },
+                            {
+                              "id": "c069d46",
+                              "elType": "container",
+                              "settings": {
+                                "content_width": "full",
+                                "flex_direction": "column",
+                                "flex_gap": {
+                                  "column": "0",
+                                  "row": "0",
+                                  "isLinked": true,
+                                  "unit": "px",
+                                  "size": 0
+                                },
+                                "padding": {
+                                  "unit": "px",
+                                  "top": "0",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": true
+                                },
+                                "css_classes": "",
+                                "_title": "Content group"
+                              },
+                              "elements": [
+                                {
+                                  "id": "d357a7e",
+                                  "elType": "widget",
+                                  "widgetType": "heading",
+                                  "settings": {
+                                    "title": "Explore supplier options",
+                                    "header_size": "h3",
+                                    "_css_classes": "kova-heading ",
+                                    "_title": "Explore supplier options",
+                                    "_margin": {
+                                      "unit": "px",
+                                      "top": "0",
+                                      "right": "0",
+                                      "bottom": "0",
+                                      "left": "0",
+                                      "isLinked": true
+                                    }
+                                  },
+                                  "elements": [],
+                                  "isInner": false
+                                },
+                                {
+                                  "id": "d64832f",
+                                  "elType": "widget",
+                                  "widgetType": "text-editor",
+                                  "settings": {
+                                    "editor": "<p>Research and evaluate fit with your brief.</p>",
+                                    "_css_classes": "kova-copy ",
+                                    "_title": "Research and evaluate fit with your brief.",
+                                    "_margin": {
+                                      "unit": "px",
+                                      "top": "0",
+                                      "right": "0",
+                                      "bottom": "0",
+                                      "left": "0",
+                                      "isLinked": true
+                                    }
+                                  },
+                                  "elements": [],
+                                  "isInner": false
+                                }
+                              ],
+                              "isInner": true
+                            }
+                          ],
+                          "isInner": true
+                        },
+                        {
+                          "id": "387174c",
+                          "elType": "container",
+                          "settings": {
+                            "content_width": "full",
+                            "flex_direction": "column",
+                            "flex_gap": {
+                              "column": "0",
+                              "row": "0",
+                              "isLinked": true,
+                              "unit": "px",
+                              "size": 0
+                            },
+                            "padding": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": true
+                            },
+                            "css_classes": "kova-list-item",
+                            "_title": " kova-list-item"
+                          },
+                          "elements": [
+                            {
+                              "id": "f58d4d9",
+                              "elType": "widget",
+                              "widgetType": "text-editor",
+                              "settings": {
+                                "editor": "<p><span>03</span></p>",
+                                "_css_classes": "kova-copy ",
+                                "_title": "03",
+                                "_margin": {
+                                  "unit": "px",
+                                  "top": "0",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": true
+                                }
+                              },
+                              "elements": [],
+                              "isInner": false
+                            },
+                            {
+                              "id": "706660d",
+                              "elType": "container",
+                              "settings": {
+                                "content_width": "full",
+                                "flex_direction": "column",
+                                "flex_gap": {
+                                  "column": "0",
+                                  "row": "0",
+                                  "isLinked": true,
+                                  "unit": "px",
+                                  "size": 0
+                                },
+                                "padding": {
+                                  "unit": "px",
+                                  "top": "0",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": true
+                                },
+                                "css_classes": "",
+                                "_title": "Content group"
+                              },
+                              "elements": [
+                                {
+                                  "id": "c15b96f",
+                                  "elType": "widget",
+                                  "widgetType": "heading",
+                                  "settings": {
+                                    "title": "Compare quotes & samples",
+                                    "header_size": "h3",
+                                    "_css_classes": "kova-heading ",
+                                    "_title": "Compare quotes & samples",
+                                    "_margin": {
+                                      "unit": "px",
+                                      "top": "0",
+                                      "right": "0",
+                                      "bottom": "0",
+                                      "left": "0",
+                                      "isLinked": true
+                                    }
+                                  },
+                                  "elements": [],
+                                  "isInner": false
+                                },
+                                {
+                                  "id": "95b6072",
+                                  "elType": "widget",
+                                  "widgetType": "text-editor",
+                                  "settings": {
+                                    "editor": "<p>Clarify proposals and refine specifications.</p>",
+                                    "_css_classes": "kova-copy ",
+                                    "_title": "Clarify proposals and refine specifications.",
+                                    "_margin": {
+                                      "unit": "px",
+                                      "top": "0",
+                                      "right": "0",
+                                      "bottom": "0",
+                                      "left": "0",
+                                      "isLinked": true
+                                    }
+                                  },
+                                  "elements": [],
+                                  "isInner": false
+                                }
+                              ],
+                              "isInner": true
+                            }
+                          ],
+                          "isInner": true
+                        },
+                        {
+                          "id": "4a2ac20",
+                          "elType": "container",
+                          "settings": {
+                            "content_width": "full",
+                            "flex_direction": "column",
+                            "flex_gap": {
+                              "column": "0",
+                              "row": "0",
+                              "isLinked": true,
+                              "unit": "px",
+                              "size": 0
+                            },
+                            "padding": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": true
+                            },
+                            "css_classes": "kova-list-item",
+                            "_title": " kova-list-item"
+                          },
+                          "elements": [
+                            {
+                              "id": "450e4a4",
+                              "elType": "widget",
+                              "widgetType": "text-editor",
+                              "settings": {
+                                "editor": "<p><span>04</span></p>",
+                                "_css_classes": "kova-copy ",
+                                "_title": "04",
+                                "_margin": {
+                                  "unit": "px",
+                                  "top": "0",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": true
+                                }
+                              },
+                              "elements": [],
+                              "isInner": false
+                            },
+                            {
+                              "id": "f80f765",
+                              "elType": "container",
+                              "settings": {
+                                "content_width": "full",
+                                "flex_direction": "column",
+                                "flex_gap": {
+                                  "column": "0",
+                                  "row": "0",
+                                  "isLinked": true,
+                                  "unit": "px",
+                                  "size": 0
+                                },
+                                "padding": {
+                                  "unit": "px",
+                                  "top": "0",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": true
+                                },
+                                "css_classes": "",
+                                "_title": "Content group"
+                              },
+                              "elements": [
+                                {
+                                  "id": "224d209",
+                                  "elType": "widget",
+                                  "widgetType": "heading",
+                                  "settings": {
+                                    "title": "Follow up on production",
+                                    "header_size": "h3",
+                                    "_css_classes": "kova-heading ",
+                                    "_title": "Follow up on production",
+                                    "_margin": {
+                                      "unit": "px",
+                                      "top": "0",
+                                      "right": "0",
+                                      "bottom": "0",
+                                      "left": "0",
+                                      "isLinked": true
+                                    }
+                                  },
+                                  "elements": [],
+                                  "isInner": false
+                                },
+                                {
+                                  "id": "fe0cc20",
+                                  "elType": "widget",
+                                  "widgetType": "text-editor",
+                                  "settings": {
+                                    "editor": "<p>Coordinate communication and agreed milestones.</p>",
+                                    "_css_classes": "kova-copy ",
+                                    "_title": "Coordinate communication and agreed milestones.",
+                                    "_margin": {
+                                      "unit": "px",
+                                      "top": "0",
+                                      "right": "0",
+                                      "bottom": "0",
+                                      "left": "0",
+                                      "isLinked": true
+                                    }
+                                  },
+                                  "elements": [],
+                                  "isInner": false
+                                }
+                              ],
+                              "isInner": true
+                            }
+                          ],
+                          "isInner": true
+                        },
+                        {
+                          "id": "7229f03",
+                          "elType": "container",
+                          "settings": {
+                            "content_width": "full",
+                            "flex_direction": "column",
+                            "flex_gap": {
+                              "column": "0",
+                              "row": "0",
+                              "isLinked": true,
+                              "unit": "px",
+                              "size": 0
+                            },
+                            "padding": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": true
+                            },
+                            "css_classes": "kova-list-item",
+                            "_title": " kova-list-item"
+                          },
+                          "elements": [
+                            {
+                              "id": "578f9e8",
+                              "elType": "widget",
+                              "widgetType": "text-editor",
+                              "settings": {
+                                "editor": "<p><span>05</span></p>",
+                                "_css_classes": "kova-copy ",
+                                "_title": "05",
+                                "_margin": {
+                                  "unit": "px",
+                                  "top": "0",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": true
+                                }
+                              },
+                              "elements": [],
+                              "isInner": false
+                            },
+                            {
+                              "id": "25f44f7",
+                              "elType": "container",
+                              "settings": {
+                                "content_width": "full",
+                                "flex_direction": "column",
+                                "flex_gap": {
+                                  "column": "0",
+                                  "row": "0",
+                                  "isLinked": true,
+                                  "unit": "px",
+                                  "size": 0
+                                },
+                                "padding": {
+                                  "unit": "px",
+                                  "top": "0",
+                                  "right": "0",
+                                  "bottom": "0",
+                                  "left": "0",
+                                  "isLinked": true
+                                },
+                                "css_classes": "",
+                                "_title": "Content group"
+                              },
+                              "elements": [
+                                {
+                                  "id": "fd879b1",
+                                  "elType": "widget",
+                                  "widgetType": "heading",
+                                  "settings": {
+                                    "title": "Coordinate delivery",
+                                    "header_size": "h3",
+                                    "_css_classes": "kova-heading ",
+                                    "_title": "Coordinate delivery",
+                                    "_margin": {
+                                      "unit": "px",
+                                      "top": "0",
+                                      "right": "0",
+                                      "bottom": "0",
+                                      "left": "0",
+                                      "isLinked": true
+                                    }
+                                  },
+                                  "elements": [],
+                                  "isInner": false
+                                },
+                                {
+                                  "id": "7853897",
+                                  "elType": "widget",
+                                  "widgetType": "text-editor",
+                                  "settings": {
+                                    "editor": "<p>Confirm packing and shipment arrangements.</p>",
+                                    "_css_classes": "kova-copy ",
+                                    "_title": "Confirm packing and shipment arrangements.",
+                                    "_margin": {
+                                      "unit": "px",
+                                      "top": "0",
+                                      "right": "0",
+                                      "bottom": "0",
+                                      "left": "0",
+                                      "isLinked": true
+                                    }
+                                  },
+                                  "elements": [],
+                                  "isInner": false
+                                }
+                              ],
+                              "isInner": true
+                            }
+                          ],
+                          "isInner": true
+                        }
+                      ],
+                      "isInner": true
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        },
+        {
+          "id": "6f24f30",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+              "column": "0",
+              "row": "0",
+              "isLinked": true,
+              "unit": "px",
+              "size": 0
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "css_classes": "wrap editorial-contact",
+            "_title": "A product idea."
+          },
+          "elements": [
+            {
+              "id": "cf3a50e",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "column": "0",
+                  "row": "0",
+                  "isLinked": true,
+                  "unit": "px",
+                  "size": 0
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "css_classes": "",
+                "_title": "A product idea."
+              },
+              "elements": [
+                {
+                  "id": "598294c",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p class=\"eyebrow\">LET’S DISCUSS YOUR NEXT PROJECT</p>",
+                    "_css_classes": "kova-copy ",
+                    "_title": "LET’S DISCUSS YOUR NEXT PROJECT",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "f51552f",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "A product idea.<br>A practical conversation.",
+                    "header_size": "h2",
+                    "_css_classes": "kova-heading ",
+                    "_title": "A product idea.A practical conversation.",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "2994510",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Share your sourcing requirements and we can discuss the support you need.</p>",
+                    "_css_classes": "kova-copy ",
+                    "_title": "Share your sourcing requirements and we can discuss the support y",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "f0b66a1",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Start a Sourcing Inquiry",
+                "link": {
+                  "url": "/contact/",
+                  "is_external": "",
+                  "nofollow": ""
+                },
+                "size": "sm",
+                "_css_classes": "kova-button button dark",
+                "_title": "Start a Sourcing Inquiry ",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": [],
+              "isInner": false
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes"
+  },
+  "version": "0.4",
+  "title": "KOVA — Home — Phase 1",
+  "type": "page"
+}

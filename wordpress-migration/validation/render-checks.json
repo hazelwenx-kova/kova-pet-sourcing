@@ -1,0 +1,47 @@
+{
+  "scope": "Native Elementor PHP markup with supplied CSS only; not full editor or Blocksy theme. Keyboard check uses browser-native details, not plugin JS.",
+  "checks": [
+    {
+      "page": "home",
+      "width": 1440,
+      "images_loaded": true,
+      "no_overflow": true,
+      "native_details_keyboard": false
+    },
+    {
+      "page": "cat-products",
+      "width": 1440,
+      "images_loaded": true,
+      "no_overflow": true,
+      "native_details_keyboard": true
+    },
+    {
+      "page": "home",
+      "width": 768,
+      "images_loaded": true,
+      "no_overflow": true,
+      "native_details_keyboard": false
+    },
+    {
+      "page": "cat-products",
+      "width": 768,
+      "images_loaded": true,
+      "no_overflow": true,
+      "native_details_keyboard": true
+    },
+    {
+      "page": "home",
+      "width": 390,
+      "images_loaded": true,
+      "no_overflow": true,
+      "native_details_keyboard": false
+    },
+    {
+      "page": "cat-products",
+      "width": 390,
+      "images_loaded": true,
+      "no_overflow": true,
+      "native_details_keyboard": true
+    }
+  ]
+}
