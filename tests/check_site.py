@@ -40,9 +40,9 @@ with sync_playwright() as p:
         assert 'Typical materials' in page.locator('.sourcing-details').first.inner_text()
     page.goto('http://127.0.0.1:8001/index.html')
     assert page.locator('.hero-pet').count() == 2
-    assert page.locator('.collection-grid article').count() == 2
+    assert page.locator('.service-matrix article').count() == 4
     assert page.locator('#pet-products .category-grid article').count() == 6
-    assert page.locator('main > section').count() == 7
+    assert page.locator('main > section').count() == 5
     page.evaluate('document.fonts.ready')
     assert page.evaluate("document.fonts.check('16px \"DM Sans\"')")
     assert page.evaluate("document.fonts.check('16px \"DM Serif Display\"')")
