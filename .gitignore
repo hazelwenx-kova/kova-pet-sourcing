@@ -1,0 +1,5 @@
+# Server credentials/state are deployed privately, never tracked.
+kova-private/
+inquiry-config.php
+.env
+.env.*

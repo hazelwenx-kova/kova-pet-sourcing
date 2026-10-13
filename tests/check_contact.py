@@ -49,18 +49,21 @@ with sync_playwright() as p:
         assert route.request.post_data_json['source_category']=='Dog Travel Accessories'
         route.fulfill(status=status,content_type='application/json',headers={'Access-Control-Allow-Origin':'*'},body=body)
         page.wait_for_function("!document.querySelector('#send-inquiry').disabled")
-        assert 'could not confirm' in page.locator('#form-status').inner_text()
+        expected = 'required fields' if status == 422 else 'Too many attempts' if status == 429 else 'could not confirm'
+        assert expected in page.locator('#form-status').inner_text()
         assert page.locator('[name="details"]').input_value()==fields['details']
     send_and_fail()
     send_and_fail(status=500,body='{}')
     send_and_fail(body='not-json')
+    send_and_fail(status=422,body='{}')
+    send_and_fail(status=429,body='{}')
     with page.expect_request(ENDPOINT):button.click()
     pending.pop(0).abort('failed')
     page.wait_for_function("!document.querySelector('#send-inquiry').disabled")
     assert 'could not confirm' in page.locator('#form-status').inner_text()
     with page.expect_request(ENDPOINT):button.click()
     pending.pop(0).fulfill(status=200,content_type='application/json',headers={'Access-Control-Allow-Origin':'*'},body='{"received":true}')
-    page.wait_for_function("document.querySelector('#form-status').textContent.includes('has been received')")
+    page.wait_for_function("document.querySelector('#form-status').textContent.includes('accepted for sending')")
     assert page.locator('[name="details"]').input_value()==''
     browser.close()
 print('PASS: disabled preview/no transmission, category context, required/email validation, honeypot, duplicate prevention, HTTP/network/JSON/unconfirmed-receipt errors, mocked confirmed success; desktop/mobile screenshots')

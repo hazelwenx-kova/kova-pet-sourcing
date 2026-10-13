@@ -30,9 +30,9 @@ Headers and footers are static HTML repeated on each page. Update all seven when
 
 ## Inquiry integration
 
-The Contact page now prepares real server submission. No endpoint is configured yet: submissions are disabled, the business email is a visible placeholder, and no data is downloaded or sent. The form uses eight concise inquiry fields and retains category context from existing product-page links.
+The Contact page now prepares real server submission. The business email is info@kovasourcing.com. The private SiteGround SMTP configuration and endpoint are not enabled yet: preview submissions remain disabled, and no data is downloaded or sent. The form uses eight concise inquiry fields and retains category context from existing product-page links.
 
-See [INQUIRY_SETUP.md](INQUIRY_SETUP.md) for the HTTPS endpoint contract, secure recipient configuration, server validation/spam controls, privacy updates and launch tests. Browser response tests use mocked endpoints and do not establish real receipt or email delivery.
+See [INQUIRY_SETUP.md](INQUIRY_SETUP.md) for the SiteGround PHP upload layout, private authenticated SMTP settings, server validation/spam controls, privacy updates and launch tests. Browser response tests use mocked endpoints and do not establish real receipt or email delivery.
 
 ## Imagery and launch replacements
 

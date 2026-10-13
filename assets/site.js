@@ -67,16 +67,27 @@ if (form) {
         method: 'POST', headers: {'Content-Type': 'application/json', 'Accept': 'application/json'},
         credentials: 'omit', body: JSON.stringify(payload), signal: controller.signal
       });
-      if (!response.ok || !response.headers.get('content-type')?.includes('application/json')) throw new Error('Unconfirmed receipt');
+      if (!response.ok) {
+        const failure = new Error('Unconfirmed receipt');
+        failure.status = response.status;
+        throw failure;
+      }
+      if (!response.headers.get('content-type')?.includes('application/json')) throw new Error('Unconfirmed receipt');
       const result = await response.json();
       if (result.received !== true) throw new Error('Unconfirmed receipt');
-      status.textContent = 'Your inquiry has been received. Thank you for sharing your project requirements.';
+      status.textContent = 'Your inquiry has been accepted for sending to KOVA. Thank you for sharing your project requirements.';
       form.reset();
       if (requested) document.querySelector('#selected-category-note').hidden = true;
     } catch (error) {
+      if (error.status === 422) {
+        status.textContent = 'Please review your required fields, email address and input lengths. Your entries are still here.';
+      } else if (error.status === 429) {
+        status.textContent = 'Too many attempts. Please wait before trying again, or email info@kovasourcing.com directly. Your entries are still here.';
+      } else {
       status.textContent = error.name === 'AbortError'
-        ? 'We could not confirm receipt in time. Your entries are still here. Please try again or use the published business contact address once available.'
-        : 'We could not confirm that your inquiry was received. Your entries are still here. Please try again or use the published business contact address once available.';
+        ? 'We could not confirm receipt in time. Your entries are still here. Please try again or email info@kovasourcing.com directly.'
+        : 'We could not confirm that your inquiry was received. Your entries are still here. Please try again or email info@kovasourcing.com directly.';
+      }
     } finally {
       clearTimeout(timer);
       pending = false;
