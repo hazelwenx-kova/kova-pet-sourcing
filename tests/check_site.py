@@ -56,18 +56,13 @@ with sync_playwright() as p:
     page.keyboard.press('Escape');assert toggle.get_attribute('aria-expanded')=='false'
     toggle.click();page.locator('#navigation').get_by_role('link',name='Cat Products',exact=True).click()
     page.locator('.category-card').first.get_by_role('link',name='Request Sourcing',exact=True).click()
-    assert page.locator('#category').input_value()=='Cat Beds & Cozy Furniture'
-    page.get_by_role('button',name='Download Your Inquiry').click()
+    assert page.locator('#category').input_value()=='Cat Products'
+    assert page.get_by_role('button',name='Send Sourcing Inquiry').is_disabled()
+    assert page.locator('#submission-setup').is_visible()
     assert page.locator('#form-status').inner_text()==''
-    values={'name':'Review User','company':'Pet Brand','email':'review@example.com','country':'Canada','requirements':'Recycled fabric toys','message':'Please explore sample options.'}
-    for key,value in values.items():page.locator(f'[name="{key}"]').fill(value)
-    with page.expect_download() as info:page.get_by_role('button',name='Download Your Inquiry').click()
-    download=info.value
-    text=Path(download.path()).read_text()
-    assert 'Review User' in text and 'Cat Beds & Cozy Furniture' in text
-    assert 'has not been sent' in text
-    assert 'not been sent' in page.locator('#form-status').inner_text()
-    print('PASS: mobile menu, Escape, navigation, category preselection, required validation and inquiry download')
+    assert page.locator('[name="company"]').get_attribute('required') is None
+    assert page.locator('[name="details"]').get_attribute('required') is not None
+    print('PASS: mobile menu, navigation, category mapping and disabled preview submission')
     page.set_viewport_size({'width':1440,'height':1000});page.goto('http://127.0.0.1:8001/');page.screenshot(path='/tmp/kova-home.png',full_page=True)
     page.screenshot(path='/tmp/kova-home-desktop.png')
     page.goto('http://127.0.0.1:8001/cat-products.html');page.screenshot(path='/tmp/kova-cats-desktop.png',full_page=True)

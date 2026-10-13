@@ -28,17 +28,11 @@ Open the local server in your browser. All pages also work as static files. Stop
 
 Headers and footers are static HTML repeated on each page. Update all seven when changing shared navigation. There are no external fonts, scripts, trackers or image requests.
 
-## Inquiry behavior and submission integration
+## Inquiry integration
 
-The current form validates required fields and email format, preselects categories from category links, and downloads a plain-text inquiry file. It does **not** send email, upload data or store entries on a server. There is deliberately no invented contact email.
+The Contact page now prepares real server submission. No endpoint is configured yet: submissions are disabled, the business email is a visible placeholder, and no data is downloaded or sent. The form uses eight concise inquiry fields and retains category context from existing product-page links.
 
-Before enabling real submissions:
-
-1. Select a submission service or a SiteGround-hosted backend and configure the verified recipient address securely. Never put API keys or mail credentials in frontend JavaScript.
-2. Implement server-side validation, length limits, rate limiting/spam protection, safe email construction and error handling. Do not trust browser validation alone.
-3. Replace the download handler in `assets/site.js` with a request to the configured HTTPS endpoint. Disable duplicate submissions and show success only after the endpoint confirms receipt. Preserve entered text on errors.
-4. Update the form button, preparation notice and privacy copy in `contact.html` to describe actual data processing, service providers, retention and a verified contact route.
-5. Test successful receipt, validation rejection, endpoint failure and retry before publishing. Update any affected contact links or copy.
+See [INQUIRY_SETUP.md](INQUIRY_SETUP.md) for the HTTPS endpoint contract, secure recipient configuration, server validation/spam controls, privacy updates and launch tests. Browser response tests use mocked endpoints and do not establish real receipt or email delivery.
 
 ## Imagery and launch replacements
 
@@ -71,4 +65,4 @@ Canonical URLs, sitemap and Open Graph URLs currently use `https://kovasourcing.
 
 A browser smoke check is included in `tests/check_site.py`. With the preview server running, execute `python3 tests/check_site.py` in an environment with Python Playwright and `/usr/bin/chromium` installed. These are development-only tools, not website dependencies.
 
-The check verifies local links/assets, all seven pages at desktop (1440px), tablet (768px) and mobile (390px), image loading, horizontal overflow, mobile navigation and Escape handling, category preselection, required-field validation and inquiry file contents. JavaScript syntax is checked with `node --check assets/site.js`.
+The check verifies local links/assets, all seven pages at desktop (1440px), tablet (768px) and mobile (390px), image loading, horizontal overflow, mobile navigation and Escape handling, category mapping and disabled development-preview submissions. JavaScript syntax is checked with `node --check assets/site.js`.
