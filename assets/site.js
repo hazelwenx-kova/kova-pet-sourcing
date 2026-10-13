@@ -99,3 +99,84 @@ if (form) {
     form.elements.namedItem(name).addEventListener('input', event => event.target.setCustomValidity(''));
   }
 }
+
+// Progressive scroll reveal: content stays visible without JS or observer support.
+const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+let revealObserver;
+const revealSections = [...document.querySelectorAll('main > section')];
+function showSection(section) {
+  if (!section) return;
+  section.classList.remove('motion-reveal-pending');
+  revealObserver?.unobserve(section);
+}
+function showAllSections() {
+  revealObserver?.disconnect();
+  revealSections.forEach(showSection);
+}
+if (!reducedMotion.matches && 'IntersectionObserver' in window) {
+  revealObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => { if (entry.isIntersecting) showSection(entry.target); });
+  }, {threshold: 0, rootMargin: '0px 0px 80px 0px'});
+  revealSections.forEach(section => {
+    if (section.getBoundingClientRect().top >= window.innerHeight) {
+      section.classList.add('motion-reveal', 'motion-reveal-pending');
+      revealObserver.observe(section);
+    }
+  });
+}
+reducedMotion.addEventListener('change', event => { if (event.matches) showAllSections(); });
+window.addEventListener('beforeprint', showAllSections);
+document.addEventListener('focusin', event => showSection(event.target.closest('main > section')));
+window.addEventListener('hashchange', () => {
+  const target = document.getElementById(location.hash.slice(1));
+  showSection(target?.closest('main > section'));
+});
+// Readable process panels gain keyboard focus without pretending to be buttons.
+document.querySelectorAll('.work-timeline > li').forEach(step => { step.tabIndex = 0; });
+
+// Inline validation appears only after field interaction; no submission is enabled here.
+if (form) {
+  const fields = [...form.querySelectorAll('input:not([name="website"]), select, textarea')];
+  function validateField(field) {
+    const empty = field.required && !field.value.trim();
+    const invalid = empty || !field.validity.valid;
+    const id = `feedback-${field.name}`;
+    let feedback = document.getElementById(id);
+    if (invalid) {
+      if (!feedback) {
+        feedback = document.createElement('span');
+        feedback.id = id;
+        feedback.className = 'field-feedback';
+        feedback.setAttribute('aria-live', 'polite');
+        field.insertAdjacentElement('afterend', feedback);
+      }
+      feedback.textContent = empty ? 'Please complete this field.'
+        : field.type === 'email' ? 'Please enter a valid email address.' : 'Please check this field.';
+      field.setAttribute('aria-invalid', 'true');
+      const descriptions = new Set((field.getAttribute('aria-describedby') || '').split(' ').filter(Boolean));
+      descriptions.add(id);
+      field.setAttribute('aria-describedby', [...descriptions].join(' '));
+    } else {
+      feedback?.remove();
+      field.removeAttribute('aria-invalid');
+      const descriptions = (field.getAttribute('aria-describedby') || '').split(' ').filter(value => value && value !== id);
+      if (descriptions.length) field.setAttribute('aria-describedby', descriptions.join(' '));
+      else field.removeAttribute('aria-describedby');
+    }
+  }
+  fields.forEach(field => {
+    field.addEventListener('blur', () => validateField(field));
+    field.addEventListener('invalid', () => validateField(field));
+    field.addEventListener('input', () => { if (field.hasAttribute('aria-invalid')) validateField(field); });
+    field.addEventListener('change', () => { if (field.hasAttribute('aria-invalid')) validateField(field); });
+  });
+  form.addEventListener('reset', () => {
+    fields.forEach(field => {
+      document.getElementById(`feedback-${field.name}`)?.remove();
+      field.removeAttribute('aria-invalid');
+      const descriptions = (field.getAttribute('aria-describedby') || '').split(' ').filter(value => value && value !== `feedback-${field.name}`);
+      if (descriptions.length) field.setAttribute('aria-describedby', descriptions.join(' '));
+      else field.removeAttribute('aria-describedby');
+    });
+  });
+}
