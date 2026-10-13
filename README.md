@@ -15,8 +15,8 @@ Open the local server in your browser. All pages also work as static files. Stop
 ## Structure
 
 - `index.html`: homepage
-- `cat-products.html`: six primary cat sourcing categories
-- `dog-products.html`: four secondary dog categories
+- `cat-products.html`: six cat sourcing categories
+- `dog-products.html`: six dog sourcing categories
 - `about.html`: independent Shenzhen-based service positioning
 - `other-pet-products.html`: compatibility redirect to Dog Products
 - `sourcing-services.html`: seven coordination services
@@ -42,14 +42,18 @@ Before enabling real submissions:
 
 ## Imagery and launch replacements
 
+Cat and dog products have equal importance throughout the site. The homepage includes a seven-category Pet Products overview and equally sized Cat Products and Dog Products links. Both dedicated pages have six categories with expandable sourcing details. Materials and customization descriptions are possibilities to discuss, not confirmed supplier capabilities.
+
+Headings use locally hosted DM Serif Display and body text uses DM Sans, sourced from the Google Fonts repository under the SIL Open Font License. License files are retained in `assets/fonts/`. No external font request is needed.
+
 The redesign uses photorealistic AI-generated **review placeholders**, not third-party photographs or actual supplier products. Generation was used because licensed photo download requests were blocked by this environment’s network policy. No Scruffs text, photography, branding or code was used. On-page notices identify the conceptual imagery.
 
-- `assets/images/hero-concept.webp`: homepage lifestyle hero. Replace with a properly licensed cat-in-interior photograph before launch.
+- The homepage hero uses equally sized cat and dog lifestyle panels from the category image sheets described below. Replace both with properly licensed photography before launch. `hero-concept.webp` is an unused retained asset from the earlier design.
 - `assets/images/category-concepts.webp`: six equal panels, arranged 3 columns × 2 rows: cat beds, trees, toys, feeding, travel and grooming. Replace all six category visuals with licensed photography. The panels are shown using CSS background positioning in `assets/styles.css`; when replacing with individual files, change `.panel-0` through `.panel-5` to their own background images and `background-size: cover`.
 - `assets/images/dog-concepts.webp`: four equal panels in a 2 × 2 grid: beds, walking, feeding and travel. Replace all four. Update `.dog-panel-0` through `.dog-panel-3` similarly.
-- `assets/images/social-card.png`: social sharing card. Refresh if imagery or branding changes.
+- `assets/images/social-card.png`: social sharing card showing the balanced cat and dog hero. Refresh if imagery or branding changes.
 
-The WebP hero and cat contact sheet together are about 409 KB. Assets are served locally with no third-party trackers, fonts or image services. Uncompressed generated originals are retained outside the checkout in `/workspace/generated_images` and are not part of the deployment bundle.
+The homepage reuses the cat and dog contact sheets to avoid extra hero image requests. Assets are served locally with no third-party trackers, fonts or image services. Uncompressed generated originals are retained outside the checkout in `/workspace/generated_images` and are not part of the deployment bundle.
 
 Update accessible image labels, on-page concept notices and this documentation when final photos are added. Retain license and attribution records. Do not imply pictured products are stocked, owned, manufactured or supplied by KOVA. This review build is not ready for launch until final photography and inquiry handling are confirmed.
 

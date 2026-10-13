@@ -31,6 +31,23 @@ with sync_playwright() as p:
             page.wait_for_function('Array.from(document.images).every(i => i.complete && i.naturalWidth > 0)')
             assert page.locator('img').evaluate_all('(images) => images.every(i => i.complete && i.naturalWidth > 0)')
         print(f'PASS: seven pages, images and no overflow at {width}px')
+    for filename in ['cat-products.html','dog-products.html']:
+        page.goto(f'http://127.0.0.1:8001/{filename}')
+        assert page.locator('.category-card').count() == 6
+        assert page.locator('.sourcing-details').count() == 6
+        page.locator('.sourcing-details summary').first.click()
+        assert page.locator('.sourcing-details').first.get_attribute('open') is not None
+        assert 'Typical materials' in page.locator('.sourcing-details').first.inner_text()
+    page.goto('http://127.0.0.1:8001/index.html')
+    assert page.locator('.hero-pet').count() == 2
+    assert page.locator('.collection-grid article').count() == 2
+    assert page.locator('#pet-products .overview-grid article').count() == 7
+    page.evaluate('document.fonts.ready')
+    assert page.evaluate("document.fonts.check('16px \"DM Sans\"')")
+    assert page.evaluate("document.fonts.check('16px \"DM Serif Display\"')")
+    page.locator('#pet-products article').first.get_by_role('link',name='Request Sourcing',exact=True).click()
+    assert page.locator('#category').input_value() == 'Pet Beds & Comfort'
+    print('PASS: equal cat/dog collections, sourcing details, shared inquiry category and local fonts')
     page.goto('http://127.0.0.1:8001/index.html')
     toggle=page.get_by_role('button',name='Menu')
     toggle.click(); assert toggle.get_attribute('aria-expanded')=='true'
