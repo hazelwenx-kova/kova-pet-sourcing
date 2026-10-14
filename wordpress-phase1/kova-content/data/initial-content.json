@@ -1,0 +1,1005 @@
+{
+  "version": 1,
+  "pages": {
+    "home": {
+      "title": "Home",
+      "fields": {
+        "text_9": {
+          "label": "P: INDEPENDENT SOURCING / SHENZHEN, CHINA",
+          "type": "textarea",
+          "default": "INDEPENDENT SOURCING / SHENZHEN, CHINA"
+        },
+        "text_10": {
+          "label": "H1: Pet Products",
+          "type": "textarea",
+          "default": "Pet Products"
+        },
+        "text_11": {
+          "label": "H1: Sourcing,",
+          "type": "textarea",
+          "default": "Sourcing,"
+        },
+        "text_12": {
+          "label": "H1: Made Personal.",
+          "type": "textarea",
+          "default": "Made Personal."
+        },
+        "text_13": {
+          "label": "P: China sourcing and coordination for international pet brands, importer",
+          "type": "textarea",
+          "default": "China sourcing and coordination for international pet brands, importers and retailers. Cat and dog products, with the same attention to your brief."
+        },
+        "text_14": {
+          "label": "SPAN: Supplier research",
+          "type": "textarea",
+          "default": "Supplier research"
+        },
+        "text_15": {
+          "label": "SPAN: Product development",
+          "type": "textarea",
+          "default": "Product development"
+        },
+        "text_16": {
+          "label": "SPAN: Production follow-up",
+          "type": "textarea",
+          "default": "Production follow-up"
+        },
+        "text_17": {
+          "label": "SPAN: FOR CATS",
+          "type": "textarea",
+          "default": "FOR CATS"
+        },
+        "text_18": {
+          "label": "SPAN: FOR DOGS",
+          "type": "textarea",
+          "default": "FOR DOGS"
+        },
+        "text_19": {
+          "label": "P: HOW KOVA CAN HELP",
+          "type": "textarea",
+          "default": "HOW KOVA CAN HELP"
+        },
+        "text_20": {
+          "label": "H2: A local connection.",
+          "type": "textarea",
+          "default": "A local connection."
+        },
+        "text_21": {
+          "label": "H2: A clearer process.",
+          "type": "textarea",
+          "default": "A clearer process."
+        },
+        "text_22": {
+          "label": "P: Practical support between your product brief and manufacturer conversa",
+          "type": "textarea",
+          "default": "Practical support between your product brief and manufacturer conversations in China."
+        },
+        "text_23": {
+          "label": "P: Independent China sourcing and supplier coordination.",
+          "type": "textarea",
+          "default": "Independent China sourcing and supplier coordination."
+        },
+        "text_24": {
+          "label": "H3: Find the right starting point.",
+          "type": "textarea",
+          "default": "Find the right starting point."
+        },
+        "text_25": {
+          "label": "P: Supplier Research & Shortlisting",
+          "type": "textarea",
+          "default": "Supplier Research & Shortlisting"
+        },
+        "text_26": {
+          "label": "P: Research potential manufacturers and compare their fit with your speci",
+          "type": "textarea",
+          "default": "Research potential manufacturers and compare their fit with your specifications and target market."
+        },
+        "text_27": {
+          "label": "H3: Develop the details.",
+          "type": "textarea",
+          "default": "Develop the details."
+        },
+        "text_28": {
+          "label": "P: Customisation & OEM/ODM Coordination",
+          "type": "textarea",
+          "default": "Customisation & OEM/ODM Coordination"
+        },
+        "text_29": {
+          "label": "P: Coordinate materials, dimensions, colours, branding and samples, with ",
+          "type": "textarea",
+          "default": "Coordinate materials, dimensions, colours, branding and samples, with feasibility confirmed by suppliers."
+        },
+        "text_30": {
+          "label": "H3: Keep production moving.",
+          "type": "textarea",
+          "default": "Keep production moving."
+        },
+        "text_31": {
+          "label": "P: Factory Visits & Production Follow-up",
+          "type": "textarea",
+          "default": "Factory Visits & Production Follow-up"
+        },
+        "text_32": {
+          "label": "P: Arrange visits where appropriate and follow up on agreed milestones an",
+          "type": "textarea",
+          "default": "Arrange visits where appropriate and follow up on agreed milestones and reported quality issues."
+        },
+        "text_33": {
+          "label": "H3: Connect the final steps.",
+          "type": "textarea",
+          "default": "Connect the final steps."
+        },
+        "text_34": {
+          "label": "P: Order & Shipment Coordination",
+          "type": "textarea",
+          "default": "Order & Shipment Coordination"
+        },
+        "text_35": {
+          "label": "P: Follow up on packing and shipment details with suppliers and your chos",
+          "type": "textarea",
+          "default": "Follow up on packing and shipment details with suppliers and your chosen logistics partners."
+        },
+        "text_36": {
+          "label": "P: CAT & DOG PRODUCT SOURCING",
+          "type": "textarea",
+          "default": "CAT & DOG PRODUCT SOURCING"
+        },
+        "text_37": {
+          "label": "H2: Product possibilities,\nshaped around your brief.",
+          "type": "textarea",
+          "default": "Product possibilities,\nshaped around your brief."
+        },
+        "text_38": {
+          "label": "P: Explore materials, forms and everyday essentials for your next collect",
+          "type": "textarea",
+          "default": "Explore materials, forms and everyday essentials for your next collection."
+        },
+        "text_39": {
+          "label": "P: Explore categories and share your requirements.",
+          "type": "textarea",
+          "default": "Explore categories and share your requirements."
+        },
+        "text_40": {
+          "label": "H3: Beds & Comfort",
+          "type": "textarea",
+          "default": "Beds & Comfort"
+        },
+        "text_41": {
+          "label": "H3: Feeding & Drinking",
+          "type": "textarea",
+          "default": "Feeding & Drinking"
+        },
+        "text_42": {
+          "label": "H3: Toys & Enrichment",
+          "type": "textarea",
+          "default": "Toys & Enrichment"
+        },
+        "text_43": {
+          "label": "H3: Grooming & Care",
+          "type": "textarea",
+          "default": "Grooming & Care"
+        },
+        "text_44": {
+          "label": "H3: Travel & Carriers",
+          "type": "textarea",
+          "default": "Travel & Carriers"
+        },
+        "text_45": {
+          "label": "H3: Collars, Harnesses & Leashes",
+          "type": "textarea",
+          "default": "Collars, Harnesses & Leashes"
+        },
+        "text_46": {
+          "label": "P: Looking for cat trees or scratching furniture?",
+          "type": "textarea",
+          "default": "Looking for cat trees or scratching furniture? "
+        },
+        "text_47": {
+          "label": "P: AI-generated imagery is used for illustration only. Product details an",
+          "type": "textarea",
+          "default": "AI-generated imagery is used for illustration only. Product details and availability are subject to supplier confirmation."
+        },
+        "text_48": {
+          "label": "P: WHY KOVA",
+          "type": "textarea",
+          "default": "WHY KOVA"
+        },
+        "text_49": {
+          "label": "H2: Direct communication.",
+          "type": "textarea",
+          "default": "Direct communication."
+        },
+        "text_50": {
+          "label": "H2: Personal follow-through.",
+          "type": "textarea",
+          "default": "Personal follow-through."
+        },
+        "text_51": {
+          "label": "P: Shenzhen-based coordination with a flexible scope for small and medium",
+          "type": "textarea",
+          "default": "Shenzhen-based coordination with a flexible scope for small and medium-sized pet brands."
+        },
+        "text_52": {
+          "label": "SPAN: 8",
+          "type": "textarea",
+          "default": "8"
+        },
+        "text_53": {
+          "label": "P: Approximately",
+          "type": "textarea",
+          "default": "Approximately"
+        },
+        "text_54": {
+          "label": "H3: Years of international business & sourcing experience",
+          "type": "textarea",
+          "default": "Years of international business & sourcing experience"
+        },
+        "text_55": {
+          "label": "P: Experience in supplier communication, sourcing coordination, productio",
+          "type": "textarea",
+          "default": "Experience in supplier communication, sourcing coordination, production follow-up, quality issue resolution and international order management."
+        },
+        "text_56": {
+          "label": "P: HOW WE WORK",
+          "type": "textarea",
+          "default": "HOW WE WORK"
+        },
+        "text_57": {
+          "label": "H3: Share your requirements",
+          "type": "textarea",
+          "default": "Share your requirements"
+        },
+        "text_58": {
+          "label": "P: Product, materials, quantities and timing.",
+          "type": "textarea",
+          "default": "Product, materials, quantities and timing."
+        },
+        "text_59": {
+          "label": "H3: Explore supplier options",
+          "type": "textarea",
+          "default": "Explore supplier options"
+        },
+        "text_60": {
+          "label": "P: Research and evaluate fit with your brief.",
+          "type": "textarea",
+          "default": "Research and evaluate fit with your brief."
+        },
+        "text_61": {
+          "label": "H3: Compare quotes & samples",
+          "type": "textarea",
+          "default": "Compare quotes & samples"
+        },
+        "text_62": {
+          "label": "P: Clarify proposals and refine specifications.",
+          "type": "textarea",
+          "default": "Clarify proposals and refine specifications."
+        },
+        "text_63": {
+          "label": "H3: Follow up on production",
+          "type": "textarea",
+          "default": "Follow up on production"
+        },
+        "text_64": {
+          "label": "P: Coordinate communication and agreed milestones.",
+          "type": "textarea",
+          "default": "Coordinate communication and agreed milestones."
+        },
+        "text_65": {
+          "label": "H3: Coordinate delivery",
+          "type": "textarea",
+          "default": "Coordinate delivery"
+        },
+        "text_66": {
+          "label": "P: Confirm packing and shipment arrangements.",
+          "type": "textarea",
+          "default": "Confirm packing and shipment arrangements."
+        },
+        "text_67": {
+          "label": "P: LET’S DISCUSS YOUR NEXT PROJECT",
+          "type": "textarea",
+          "default": "LET’S DISCUSS YOUR NEXT PROJECT"
+        },
+        "text_68": {
+          "label": "H2: A product idea.",
+          "type": "textarea",
+          "default": "A product idea."
+        },
+        "text_69": {
+          "label": "H2: A practical conversation.",
+          "type": "textarea",
+          "default": "A practical conversation."
+        },
+        "text_70": {
+          "label": "P: Share your sourcing requirements and we can discuss the support you ne",
+          "type": "textarea",
+          "default": "Share your sourcing requirements and we can discuss the support you need."
+        },
+        "link_71": {
+          "label": "Destination: Start a Sourcing Inquiry",
+          "type": "text",
+          "default": "contact.html",
+          "instructions": "Use a site page, #section, relative URL or HTTPS link. Keep section links unchanged unless needed."
+        },
+        "text_72": {
+          "label": "Link label: Start a Sourcing Inquiry",
+          "type": "text",
+          "default": "Start a Sourcing Inquiry "
+        },
+        "link_73": {
+          "label": "Destination: Explore Pet Products",
+          "type": "text",
+          "default": "#pet-products",
+          "instructions": "Use a site page, #section, relative URL or HTTPS link. Keep section links unchanged unless needed."
+        },
+        "text_74": {
+          "label": "Link label: Explore Pet Products",
+          "type": "text",
+          "default": "Explore Pet Products "
+        },
+        "link_75": {
+          "label": "Destination: Explore Sourcing Services",
+          "type": "text",
+          "default": "sourcing-services.html",
+          "instructions": "Use a site page, #section, relative URL or HTTPS link. Keep section links unchanged unless needed."
+        },
+        "text_76": {
+          "label": "Link label: Explore Sourcing Services",
+          "type": "text",
+          "default": "Explore Sourcing Services "
+        },
+        "link_77": {
+          "label": "Destination: Cat Products",
+          "type": "text",
+          "default": "cat-products.html",
+          "instructions": "Use a site page, #section, relative URL or HTTPS link. Keep section links unchanged unless needed."
+        },
+        "text_78": {
+          "label": "Link label: Cat Products",
+          "type": "text",
+          "default": "Cat Products "
+        },
+        "link_79": {
+          "label": "Destination: Dog Products",
+          "type": "text",
+          "default": "dog-products.html",
+          "instructions": "Use a site page, #section, relative URL or HTTPS link. Keep section links unchanged unless needed."
+        },
+        "text_80": {
+          "label": "Link label: Dog Products",
+          "type": "text",
+          "default": "Dog Products "
+        },
+        "link_81": {
+          "label": "Destination: Cat Products",
+          "type": "text",
+          "default": "cat-products.html",
+          "instructions": "Use a site page, #section, relative URL or HTTPS link. Keep section links unchanged unless needed."
+        },
+        "text_82": {
+          "label": "Link label: Cat Products",
+          "type": "text",
+          "default": "Cat Products "
+        },
+        "link_83": {
+          "label": "Destination: Dog Products",
+          "type": "text",
+          "default": "dog-products.html",
+          "instructions": "Use a site page, #section, relative URL or HTTPS link. Keep section links unchanged unless needed."
+        },
+        "text_84": {
+          "label": "Link label: Dog Products",
+          "type": "text",
+          "default": "Dog Products "
+        },
+        "link_85": {
+          "label": "Destination: Cat Products",
+          "type": "text",
+          "default": "cat-products.html",
+          "instructions": "Use a site page, #section, relative URL or HTTPS link. Keep section links unchanged unless needed."
+        },
+        "text_86": {
+          "label": "Link label: Cat Products",
+          "type": "text",
+          "default": "Cat Products "
+        },
+        "link_87": {
+          "label": "Destination: Dog Products",
+          "type": "text",
+          "default": "dog-products.html",
+          "instructions": "Use a site page, #section, relative URL or HTTPS link. Keep section links unchanged unless needed."
+        },
+        "text_88": {
+          "label": "Link label: Dog Products",
+          "type": "text",
+          "default": "Dog Products "
+        },
+        "link_89": {
+          "label": "Destination: Cat Products",
+          "type": "text",
+          "default": "cat-products.html",
+          "instructions": "Use a site page, #section, relative URL or HTTPS link. Keep section links unchanged unless needed."
+        },
+        "text_90": {
+          "label": "Link label: Cat Products",
+          "type": "text",
+          "default": "Cat Products "
+        },
+        "link_91": {
+          "label": "Destination: Dog Products",
+          "type": "text",
+          "default": "dog-products.html",
+          "instructions": "Use a site page, #section, relative URL or HTTPS link. Keep section links unchanged unless needed."
+        },
+        "text_92": {
+          "label": "Link label: Dog Products",
+          "type": "text",
+          "default": "Dog Products "
+        },
+        "link_93": {
+          "label": "Destination: Cat Products",
+          "type": "text",
+          "default": "cat-products.html",
+          "instructions": "Use a site page, #section, relative URL or HTTPS link. Keep section links unchanged unless needed."
+        },
+        "text_94": {
+          "label": "Link label: Cat Products",
+          "type": "text",
+          "default": "Cat Products "
+        },
+        "link_95": {
+          "label": "Destination: Dog Products",
+          "type": "text",
+          "default": "dog-products.html",
+          "instructions": "Use a site page, #section, relative URL or HTTPS link. Keep section links unchanged unless needed."
+        },
+        "text_96": {
+          "label": "Link label: Dog Products",
+          "type": "text",
+          "default": "Dog Products "
+        },
+        "link_97": {
+          "label": "Destination: Dog Products",
+          "type": "text",
+          "default": "dog-products.html",
+          "instructions": "Use a site page, #section, relative URL or HTTPS link. Keep section links unchanged unless needed."
+        },
+        "text_98": {
+          "label": "Link label: Dog Products",
+          "type": "text",
+          "default": "Dog Products "
+        },
+        "link_99": {
+          "label": "Destination: Explore cat-specific categories",
+          "type": "text",
+          "default": "cat-products.html",
+          "instructions": "Use a site page, #section, relative URL or HTTPS link. Keep section links unchanged unless needed."
+        },
+        "text_100": {
+          "label": "Link label: Explore cat-specific categories",
+          "type": "text",
+          "default": "Explore cat-specific categories "
+        },
+        "link_101": {
+          "label": "Destination: About KOVA",
+          "type": "text",
+          "default": "about.html",
+          "instructions": "Use a site page, #section, relative URL or HTTPS link. Keep section links unchanged unless needed."
+        },
+        "text_102": {
+          "label": "Link label: About KOVA",
+          "type": "text",
+          "default": "About KOVA "
+        },
+        "link_103": {
+          "label": "Destination: Full Process",
+          "type": "text",
+          "default": "how-it-works.html",
+          "instructions": "Use a site page, #section, relative URL or HTTPS link. Keep section links unchanged unless needed."
+        },
+        "text_104": {
+          "label": "Link label: Full Process",
+          "type": "text",
+          "default": "Full Process "
+        },
+        "link_105": {
+          "label": "Destination: Start a Sourcing Inquiry",
+          "type": "text",
+          "default": "contact.html",
+          "instructions": "Use a site page, #section, relative URL or HTTPS link. Keep section links unchanged unless needed."
+        },
+        "text_106": {
+          "label": "Link label: Start a Sourcing Inquiry",
+          "type": "text",
+          "default": "Start a Sourcing Inquiry "
+        },
+        "image_1": {
+          "label": "Image: AI-generated cat resting in a warm neutral living room",
+          "type": "image",
+          "default": "assets/images/hero-concept.webp",
+          "alt": "AI-generated cat resting in a warm neutral living room",
+          "position": "74% center",
+          "size": "cover"
+        },
+        "image_2": {
+          "label": "Image: AI-generated dog resting in an oatmeal bed",
+          "type": "image",
+          "default": "assets/images/individual/dog-1.webp",
+          "alt": "AI-generated dog resting in an oatmeal bed",
+          "position": "center",
+          "size": "100% 100%"
+        },
+        "image_3": {
+          "label": "Image: AI-generated cat resting in an oatmeal fabric bed",
+          "type": "image",
+          "default": "assets/images/individual/cat-1.webp",
+          "alt": "AI-generated cat resting in an oatmeal fabric bed",
+          "position": "center",
+          "size": "100% 100%"
+        },
+        "image_4": {
+          "label": "Image: AI-generated ceramic feeding bowls in cream and sage",
+          "type": "image",
+          "default": "assets/images/individual/cat-4.webp",
+          "alt": "AI-generated ceramic feeding bowls in cream and sage",
+          "position": "center",
+          "size": "100% 100%"
+        },
+        "image_5": {
+          "label": "Image: AI-generated assortment with distinct dog rope and rubber toys, and cat wan",
+          "type": "image",
+          "default": "assets/images/home-toys.webp",
+          "alt": "AI-generated assortment with distinct dog rope and rubber toys, and cat wand and felt toys",
+          "position": "center",
+          "size": "cover"
+        },
+        "image_6": {
+          "label": "Image: AI-generated wooden grooming brush and neutral care accessories",
+          "type": "image",
+          "default": "assets/images/individual/cat-6.webp",
+          "alt": "AI-generated wooden grooming brush and neutral care accessories",
+          "position": "center",
+          "size": "100% 100%"
+        },
+        "image_7": {
+          "label": "Image: AI-generated oatmeal soft-sided pet carrier",
+          "type": "image",
+          "default": "assets/images/individual/cat-5.webp",
+          "alt": "AI-generated oatmeal soft-sided pet carrier",
+          "position": "center",
+          "size": "100% 100%"
+        },
+        "image_8": {
+          "label": "Image: AI-generated sage collar, harness and lead set",
+          "type": "image",
+          "default": "assets/images/individual/dog-2.webp",
+          "alt": "AI-generated sage collar, harness and lead set",
+          "position": "center",
+          "size": "100% 100%"
+        }
+      },
+      "html_class": "consultancy-home",
+      "description": "Independent B2B pet products sourcing and coordination in Shenzhen, China. Supplier research, customisation, production and shipment support for cat and dog ranges."
+    },
+    "cat-products": {
+      "title": "Cat Products",
+      "fields": {
+        "text_3": {
+          "label": "P: CAT PRODUCTS / SOURCING & COORDINATION",
+          "type": "textarea",
+          "default": "CAT PRODUCTS / SOURCING & COORDINATION"
+        },
+        "text_4": {
+          "label": "H1: For cats.",
+          "type": "textarea",
+          "default": "For cats."
+        },
+        "text_5": {
+          "label": "H1: For considered collections.",
+          "type": "textarea",
+          "default": "For considered collections."
+        },
+        "text_6": {
+          "label": "P: Independent China sourcing support for international pet brands, impor",
+          "type": "textarea",
+          "default": "Independent China sourcing support for international pet brands, importers and retailers."
+        },
+        "text_7": {
+          "label": "P: Based in Shenzhen, KOVA helps you research potential manufacturers, co",
+          "type": "textarea",
+          "default": "Based in Shenzhen, KOVA helps you research potential manufacturers, compare quotations and coordinate cat product development, samples and production."
+        },
+        "text_8": {
+          "label": "P: Independent B2B sourcing and supplier coordination in Shenzhen, China.",
+          "type": "textarea",
+          "default": "Independent B2B sourcing and supplier coordination in Shenzhen, China."
+        },
+        "text_9": {
+          "label": "P: PRODUCT POSSIBILITIES",
+          "type": "textarea",
+          "default": "PRODUCT POSSIBILITIES"
+        },
+        "text_10": {
+          "label": "H2: Explore cat product categories.",
+          "type": "textarea",
+          "default": "Explore cat product categories."
+        },
+        "text_11": {
+          "label": "P: Sourcing categories shaped around",
+          "type": "textarea",
+          "default": "Sourcing categories shaped around"
+        },
+        "text_12": {
+          "label": "P: your product brief.",
+          "type": "textarea",
+          "default": "your product brief."
+        },
+        "text_13": {
+          "label": "P: AI-generated imagery is used for illustration only. Product details an",
+          "type": "textarea",
+          "default": "AI-generated imagery is used for illustration only. Product details and availability are subject to supplier confirmation."
+        },
+        "text_14": {
+          "label": "P: Developing a range for both cats and dogs?",
+          "type": "textarea",
+          "default": "Developing a range for both cats and dogs? "
+        },
+        "text_15": {
+          "label": "P: YOUR BRAND / YOUR PRODUCT BRIEF",
+          "type": "textarea",
+          "default": "YOUR BRAND / YOUR PRODUCT BRIEF"
+        },
+        "text_16": {
+          "label": "H2: Customization",
+          "type": "textarea",
+          "default": "Customization"
+        },
+        "text_17": {
+          "label": "H2: & Private Label",
+          "type": "textarea",
+          "default": "& Private Label"
+        },
+        "text_18": {
+          "label": "P: KOVA coordinates materials, branding and packaging requirements with p",
+          "type": "textarea",
+          "default": "KOVA coordinates materials, branding and packaging requirements with potential manufacturers, with options subject to supplier feasibility."
+        },
+        "text_19": {
+          "label": "H3: Materials & finishes",
+          "type": "textarea",
+          "default": "Materials & finishes"
+        },
+        "text_20": {
+          "label": "P: Explore fabrics, filling, wood, rope, ceramics or hardware relevant to",
+          "type": "textarea",
+          "default": "Explore fabrics, filling, wood, rope, ceramics or hardware relevant to the product, with suitable finishes discussed with suppliers."
+        },
+        "text_21": {
+          "label": "H3: Colours & sizes",
+          "type": "textarea",
+          "default": "Colours & sizes"
+        },
+        "text_22": {
+          "label": "P: Discuss colour palettes, dimensions and size variations around your br",
+          "type": "textarea",
+          "default": "Discuss colour palettes, dimensions and size variations around your brief. Final options depend on supplier feasibility."
+        },
+        "text_23": {
+          "label": "H3: Branding & logo placement",
+          "type": "textarea",
+          "default": "Branding & logo placement"
+        },
+        "text_24": {
+          "label": "P: Coordinate label, embroidery or print proposals and suitable logo plac",
+          "type": "textarea",
+          "default": "Coordinate label, embroidery or print proposals and suitable logo placement for your chosen materials."
+        },
+        "text_25": {
+          "label": "H3: Private-label packaging",
+          "type": "textarea",
+          "default": "Private-label packaging"
+        },
+        "text_26": {
+          "label": "P: Discuss packaging formats, artwork, labels and packing requirements fo",
+          "type": "textarea",
+          "default": "Discuss packaging formats, artwork, labels and packing requirements for your brand and target market."
+        },
+        "text_27": {
+          "label": "H3: Specifications & samples",
+          "type": "textarea",
+          "default": "Specifications & samples"
+        },
+        "text_28": {
+          "label": "P: Clarify the product brief, coordinate sample requests and relay your f",
+          "type": "textarea",
+          "default": "Clarify the product brief, coordinate sample requests and relay your feedback before production decisions."
+        },
+        "text_29": {
+          "label": "P: PRACTICAL SUPPORT IN CHINA",
+          "type": "textarea",
+          "default": "PRACTICAL SUPPORT IN CHINA"
+        },
+        "text_30": {
+          "label": "H2: Cat Product",
+          "type": "textarea",
+          "default": "Cat Product"
+        },
+        "text_31": {
+          "label": "H2: Sourcing Support",
+          "type": "textarea",
+          "default": "Sourcing Support"
+        },
+        "text_32": {
+          "label": "P: Flexible coordination for small and medium-sized brands, from supplier",
+          "type": "textarea",
+          "default": "Flexible coordination for small and medium-sized brands, from supplier discussions to production follow-up."
+        },
+        "text_33": {
+          "label": "H3: Supplier research & shortlisting",
+          "type": "textarea",
+          "default": "Supplier research & shortlisting"
+        },
+        "text_34": {
+          "label": "P: Research potential manufacturers and compare suitability against your ",
+          "type": "textarea",
+          "default": "Research potential manufacturers and compare suitability against your category, materials and target-market requirements."
+        },
+        "text_35": {
+          "label": "H3: Quotation & MOQ comparisons",
+          "type": "textarea",
+          "default": "Quotation & MOQ comparisons"
+        },
+        "text_36": {
+          "label": "P: Compare supplier quotations and stated minimum order quantities, inclu",
+          "type": "textarea",
+          "default": "Compare supplier quotations and stated minimum order quantities, including differences in specification, packaging and order scope."
+        },
+        "text_37": {
+          "label": "H3: Sample & customisation coordination",
+          "type": "textarea",
+          "default": "Sample & customisation coordination"
+        },
+        "text_38": {
+          "label": "P: Organise sample requests, clarify changes and relay feedback on materi",
+          "type": "textarea",
+          "default": "Organise sample requests, clarify changes and relay feedback on materials, dimensions and branding."
+        },
+        "text_39": {
+          "label": "H3: Factory visits & production follow-up",
+          "type": "textarea",
+          "default": "Factory visits & production follow-up"
+        },
+        "text_40": {
+          "label": "P: Arrange visits where appropriate and follow up on agreed milestones. S",
+          "type": "textarea",
+          "default": "Arrange visits where appropriate and follow up on agreed milestones. Scope and availability are confirmed for each project."
+        },
+        "text_41": {
+          "label": "H3: Packaging & shipment coordination",
+          "type": "textarea",
+          "default": "Packaging & shipment coordination"
+        },
+        "text_42": {
+          "label": "P: Follow up on packing details and shipment arrangements with suppliers ",
+          "type": "textarea",
+          "default": "Follow up on packing details and shipment arrangements with suppliers and your chosen logistics partners."
+        },
+        "text_43": {
+          "label": "P: START WITH YOUR PRODUCT BRIEF",
+          "type": "textarea",
+          "default": "START WITH YOUR PRODUCT BRIEF"
+        },
+        "text_44": {
+          "label": "H2: Looking to develop your next",
+          "type": "textarea",
+          "default": "Looking to develop your next"
+        },
+        "text_45": {
+          "label": "H2: cat product collection?",
+          "type": "textarea",
+          "default": "cat product collection?"
+        },
+        "text_46": {
+          "label": "P: Share your product ideas, specifications and target quantities. Let's ",
+          "type": "textarea",
+          "default": "Share your product ideas, specifications and target quantities. Let's explore suitable sourcing options in China."
+        },
+        "link_47": {
+          "label": "Destination: Explore Categories",
+          "type": "text",
+          "default": "#cat-categories",
+          "instructions": "Use a site page, #section, relative URL or HTTPS link. Keep section links unchanged unless needed."
+        },
+        "text_48": {
+          "label": "Link label: Explore Categories",
+          "type": "text",
+          "default": "Explore Categories"
+        },
+        "link_49": {
+          "label": "Destination: Customization & Private Label",
+          "type": "text",
+          "default": "#cat-customisation",
+          "instructions": "Use a site page, #section, relative URL or HTTPS link. Keep section links unchanged unless needed."
+        },
+        "text_50": {
+          "label": "Link label: Customization & Private Label",
+          "type": "text",
+          "default": "Customization & Private Label"
+        },
+        "link_51": {
+          "label": "Destination: Sourcing Support",
+          "type": "text",
+          "default": "#cat-support",
+          "instructions": "Use a site page, #section, relative URL or HTTPS link. Keep section links unchanged unless needed."
+        },
+        "text_52": {
+          "label": "Link label: Sourcing Support",
+          "type": "text",
+          "default": "Sourcing Support"
+        },
+        "link_53": {
+          "label": "Destination: Explore Dog Products",
+          "type": "text",
+          "default": "dog-products.html",
+          "instructions": "Use a site page, #section, relative URL or HTTPS link. Keep section links unchanged unless needed."
+        },
+        "text_54": {
+          "label": "Link label: Explore Dog Products",
+          "type": "text",
+          "default": "Explore Dog Products "
+        },
+        "link_55": {
+          "label": "Destination: View All Sourcing Services",
+          "type": "text",
+          "default": "sourcing-services.html",
+          "instructions": "Use a site page, #section, relative URL or HTTPS link. Keep section links unchanged unless needed."
+        },
+        "text_56": {
+          "label": "Link label: View All Sourcing Services",
+          "type": "text",
+          "default": "View All Sourcing Services "
+        },
+        "link_57": {
+          "label": "Destination: Discuss Your Sourcing Project",
+          "type": "text",
+          "default": "contact.html",
+          "instructions": "Use a site page, #section, relative URL or HTTPS link. Keep section links unchanged unless needed."
+        },
+        "text_58": {
+          "label": "Link label: Discuss Your Sourcing Project",
+          "type": "text",
+          "default": "Discuss Your Sourcing Project "
+        },
+        "image_1": {
+          "label": "Image: AI-generated arrangement of neutral fabric, wood and material samples",
+          "type": "image",
+          "default": "assets/images/individual/cat-new-materials.webp",
+          "alt": "AI-generated arrangement of neutral fabric, wood and material samples",
+          "position": "center",
+          "size": "100% 100%"
+        },
+        "image_2": {
+          "label": "Image: AI-generated blank kraft packaging and label samples",
+          "type": "image",
+          "default": "assets/images/individual/cat-new-packaging.webp",
+          "alt": "AI-generated blank kraft packaging and label samples",
+          "position": "center",
+          "size": "100% 100%"
+        }
+      },
+      "html_class": "cat-sourcing-page",
+      "description": "Explore eight cat product sourcing categories, private-label customisation and supplier coordination with KOVA, an independent China-based service for international pet brands."
+    }
+  },
+  "categories": [
+    {
+      "key": "cat-1",
+      "title": "Cat Beds & Cushions",
+      "description": "Comfortable resting options with materials and forms to suit your collection.",
+      "options": "Bolster beds, enclosed beds, flat cushions and removable covers.",
+      "customization": "Cotton, bouclé or linen-look fabrics; filling, bed sizes, cover colours, embroidery, labels and packaging.",
+      "image": "assets/images/individual/cat-1.webp",
+      "alt": "AI-generated concept illustrating Cat Beds & Cushions",
+      "order": 1,
+      "species": "cat"
+    },
+    {
+      "key": "cat-2",
+      "title": "Cat Trees & Scratching",
+      "description": "Explore climbing and scratching products designed around home interiors.",
+      "options": "Sisal posts, scratching boards, multi-level trees and replacement pads.",
+      "customization": "Wood or plywood, sisal or jute; heights, layouts, upholstery colours, finishes and replacement components.",
+      "image": "assets/images/individual/cat-2.webp",
+      "alt": "AI-generated concept illustrating Cat Trees & Scratching",
+      "order": 2,
+      "species": "cat"
+    },
+    {
+      "key": "cat-3",
+      "title": "Cat Toys & Enrichment",
+      "description": "Species-appropriate play accessories in a range of textures and formats.",
+      "options": "Feather wands, felt balls, play tunnels and enrichment sets.",
+      "customization": "Felt, cotton rope, rubber or textiles; toy sizes, textures, colour palettes, set combinations and packaging.",
+      "image": "assets/images/individual/cat-3.webp",
+      "alt": "AI-generated concept illustrating Cat Toys & Enrichment",
+      "order": 3,
+      "species": "cat"
+    },
+    {
+      "key": "cat-4",
+      "title": "Feeding & Drinking",
+      "description": "Everyday mealtime accessories with practical shapes and considered finishes.",
+      "options": "Ceramic bowls, stainless steel bowls, feeding mats and water dishes.",
+      "customization": "Ceramic, stainless steel or silicone; bowl capacities, mat sizes, colours, suitable logo placement and packaging.",
+      "image": "assets/images/individual/cat-4.webp",
+      "alt": "AI-generated concept illustrating Feeding & Drinking",
+      "order": 4,
+      "species": "cat"
+    },
+    {
+      "key": "cat-5",
+      "title": "Cat Carriers & Travel",
+      "description": "Practical options for carrying cats and organising their travel essentials.",
+      "options": "Soft-sided carriers, travel mats, carrier liners and accessory pouches.",
+      "customization": "Canvas or polyester, mesh and webbing; carrier sizes, entry openings, straps, pockets, colours and labels.",
+      "image": "assets/images/individual/cat-5.webp",
+      "alt": "AI-generated concept illustrating Cat Carriers & Travel",
+      "order": 5,
+      "species": "cat"
+    },
+    {
+      "key": "cat-6",
+      "title": "Grooming & Care",
+      "description": "Tools and accessories for regular grooming and everyday care.",
+      "options": "Brushes, combs, grooming mitts and coordinated accessory sets.",
+      "customization": "Wood or bamboo handles, stainless steel or silicone; brush and comb styles, handle finishes, labels and accessory sets.",
+      "image": "assets/images/individual/cat-6.webp",
+      "alt": "AI-generated concept illustrating Grooming & Care",
+      "order": 6,
+      "species": "cat"
+    },
+    {
+      "key": "cat-7",
+      "title": "Cat Litter Accessories",
+      "description": "Explore accessories for tidier litter routines and different home layouts.",
+      "options": "Litter trays, scoops, litter-trapping mats and scoop holders.",
+      "customization": "Plastic, silicone or stainless steel, depending on the item; tray sizes, scoop shapes, mat textures, colours and packaging.",
+      "image": "assets/images/individual/cat-new-litter.webp",
+      "alt": "AI-generated concept illustrating Cat Litter Accessories",
+      "order": 7,
+      "species": "cat"
+    },
+    {
+      "key": "cat-8",
+      "title": "Cat Collars & Accessories",
+      "description": "Small accessories with fit, fastening and everyday use in mind.",
+      "options": "Breakaway collars, cat harnesses, leads and identification tag holders.",
+      "customization": "Nylon or polyester webbing and fabric; fit ranges, breakaway fastening options, colours, labels and packaging.",
+      "image": "assets/images/individual/cat-new-collars.webp",
+      "alt": "AI-generated concept illustrating Cat Collars & Accessories",
+      "order": 8,
+      "species": "cat"
+    }
+  ],
+  "global": {
+    "footer_1": {
+      "label": "Pet Products Sourcing, Made Personal.",
+      "type": "textarea",
+      "default": "Pet Products Sourcing, Made Personal."
+    },
+    "footer_2": {
+      "label": "Independent sourcing & coordination. Shenzhen, China · For intern",
+      "type": "textarea",
+      "default": "Independent sourcing &amp; coordination.<br/>Shenzhen, China · For international pet brands."
+    },
+    "footer_3": {
+      "label": "EXPLORE",
+      "type": "textarea",
+      "default": "EXPLORE"
+    },
+    "footer_4": {
+      "label": "Considered products. Clearer connections.",
+      "type": "textarea",
+      "default": "Considered products. Clearer connections."
+    }
+  }
+}
