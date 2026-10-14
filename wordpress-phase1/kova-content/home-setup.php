@@ -1,19 +1,26 @@
 <?php
 /** Explicit, one-time staging2 homepage configuration. Never runs on activation. */
 defined('ABSPATH') || exit;
-function kova_home_setup_domain_allowed(): bool {
+function kova_home_setup_domain_checks(): array {
     $domain = 'staging2.kovasourcing.com';
+    $checks = [];
     foreach (['home', 'siteurl'] as $option) {
         $url = (string) get_option($option);
-        if (strtolower((string) wp_parse_url($url, PHP_URL_HOST)) !== $domain
-            || wp_parse_url($url, PHP_URL_SCHEME) !== 'https') return false;
+        $host = strtolower((string) wp_parse_url($url, PHP_URL_HOST));
+        $scheme = (string) wp_parse_url($url, PHP_URL_SCHEME);
+        $checks[$option] = ['actual' => $scheme . '://' . $host, 'allowed' => $host === $domain && $scheme === 'https'];
     }
     $host = strtolower((string) ($_SERVER['HTTP_HOST'] ?? ''));
-    return $host === $domain || $host === $domain . ':443';
+    $checks['HTTP_HOST'] = ['actual' => $host ?: '(未提供)', 'allowed' => $host === $domain || $host === $domain . ':443'];
+    return $checks;
+}
+function kova_home_setup_domain_allowed(): bool {
+    foreach (kova_home_setup_domain_checks() as $check) if (!$check['allowed']) return false;
+    return true;
 }
 function kova_home_setup_admin_allowed(): bool {
-    return current_user_can('manage_options')
-        && in_array('administrator', wp_get_current_user()->roles, true);
+    // Standard WordPress administrator capability, also supports multisite super admins.
+    return current_user_can('manage_options');
 }
 function kova_home_setup_candidates(): array {
     return get_posts([
@@ -73,15 +80,25 @@ function kova_home_setup_apply(int $id, string $nonce, bool $confirmed): array {
     }
 }
 add_action('admin_menu', function () {
-    if (kova_home_setup_domain_allowed() && kova_home_setup_admin_allowed()) {
+    // Visibility is independent of domain checks: administrators must be able to see why execution is blocked.
+    if (kova_home_setup_admin_allowed()) {
         add_management_page('设置 KOVA 首页', '设置 KOVA 首页（staging2）', 'manage_options', 'kova-home-setup', 'kova_home_setup_screen');
     }
 });
 function kova_home_setup_screen(): void {
-    if (!kova_home_setup_admin_allowed() || !kova_home_setup_domain_allowed()) {
-        wp_die('此工具仅供 staging2.kovasourcing.com 的管理员使用。', '', ['response' => 403]);
+    if (!kova_home_setup_admin_allowed()) {
+        wp_die('此工具仅供具有 manage_options 权限的管理员使用。', '', ['response' => 403]);
     }
     echo '<div class="wrap"><h1>一次性设置 KOVA 首页</h1><p>仅更新当前测试站的 show_on_front 和 page_on_front。不会更改文章页配置、页面内容、分类、主题设计或邮件设置。</p>';
+    echo '<h2>运行环境检查</h2><p>管理工具可以显示诊断信息，但只有全部域名检查通过才能执行。插件版本：0.1.2；文件已加载。</p><table class="widefat striped"><tbody>';
+    foreach (kova_home_setup_domain_checks() as $name => $check) {
+        echo '<tr><th>' . esc_html($name) . '</th><td>' . esc_html($check['actual']) . '</td><td>' . ($check['allowed'] ? '通过' : '未通过') . '</td></tr>';
+    }
+    echo '<tr><th>manage_options</th><td colspan="2">通过</td></tr></tbody></table>';
+    if (!kova_home_setup_domain_allowed()) {
+        echo '<div class="notice notice-warning"><p>当前仅显示诊断信息，首页设置操作已禁用。要求 home 和 siteurl 为 https://staging2.kovasourcing.com，请求 Host 为 staging2.kovasourcing.com（或 :443）。工具不会自动修改这些网址。若某项仍显示正式域名，请先核对测试站克隆配置；不要绕过检查。</p></div></div>';
+        return;
+    }
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         try {
             $rawId = $_POST['kova_home_id'] ?? '';
@@ -115,3 +132,10 @@ function kova_home_setup_screen(): void {
     }
     echo '<p><a target="_blank" rel="noopener" href="' . esc_url(home_url('/')) . '">打开根网址验证首页</a></p><p>此处验证的是 WordPress 配置与页面状态，不等同于真实浏览器页面验证。设置后请清理测试站缓存，检查根网址、Home、Logo 和 Cat Products。手工自定义的 Home 菜单链接如仍是 /kova-home/，需在菜单中改为根网址。</p></div>';
 }
+
+// A direct diagnostic entry also helps if another plugin changes the Tools menu UI.
+add_action('admin_notices', function () {
+    if (($GLOBALS['pagenow'] ?? '') === 'plugins.php' && kova_home_setup_admin_allowed()) {
+        echo '<div class="notice notice-info"><p>KOVA Content 0.1.2：工具代码已加载。<a href="' . esc_url(admin_url('tools.php?page=kova-home-setup')) . '">打开 KOVA 首页环境检查</a>（写入仍仅限 staging2）。</p></div>';
+    }
+});

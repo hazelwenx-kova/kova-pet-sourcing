@@ -23,7 +23,7 @@ try{
  blocked_home($id,'invalid');blocked_home($id,$nonce,false);blocked_home(999999,$nonce);
  $catPages=get_posts(['post_type'=>'page','post_status'=>'publish','meta_key'=>'_wp_page_template','meta_value'=>'templates/page-cat-products.php']);
  if($catPages){blocked_home($catPages[0]->ID,$nonce);update_option('page_for_posts',$catPages[0]->ID);$postsBefore=get_option('page_for_posts');}
- $roles=wp_get_current_user()->roles;wp_get_current_user()->roles=['editor'];blocked_home($id,$nonce);wp_get_current_user()->roles=$roles;
+ $deny=function($caps){$caps['manage_options']=false;return $caps;};add_filter('user_has_cap',$deny);blocked_home($id,$nonce);remove_filter('user_has_cap',$deny);
  add_option('_kova_home_setup_lock',time(),'',false);blocked_home($id,$nonce);delete_option('_kova_home_setup_lock');
  $_SERVER['REQUEST_METHOD']='GET';require_once ABSPATH.'wp-admin/includes/template.php';
  ob_start();kova_home_setup_screen();$initialScreen=ob_get_clean();

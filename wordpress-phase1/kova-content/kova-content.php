@@ -2,7 +2,7 @@
 /**
  * Plugin Name: KOVA Content
  * Description: Sourcing category management, ACF Free fields and a non-destructive Phase 1 importer.
- * Version: 0.1.1
+ * Version: 0.1.2
  * Requires at least: 6.6
  * Requires PHP: 8.1
  * License: GPL-2.0-or-later
