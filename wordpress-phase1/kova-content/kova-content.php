@@ -2,7 +2,7 @@
 /**
  * Plugin Name: KOVA Content
  * Description: Sourcing category management, ACF Free fields and a non-destructive Phase 1 importer.
- * Version: 0.1.0
+ * Version: 0.1.1
  * Requires at least: 6.6
  * Requires PHP: 8.1
  * License: GPL-2.0-or-later
@@ -81,3 +81,6 @@ require __DIR__.'/import.php';
 add_filter('use_block_editor_for_post',function($use,$post){
     return in_array(get_post_meta($post->ID,'_wp_page_template',true),['templates/page-home.php','templates/page-cat-products.php'],true)?false:$use;
 },10,2);
+
+// Explicit staging2-only homepage setup; no activation side effects.
+require __DIR__ . '/home-setup.php';
