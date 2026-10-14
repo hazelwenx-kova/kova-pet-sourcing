@@ -40,7 +40,7 @@ function kova_run_import_content(): array {
     if(!kova_import_allowed())throw new RuntimeException('Import is limited to local/staging environments. It is disabled on the live domain.');
     if(!is_file(get_theme_root().'/kova-theme/style.css'))throw new RuntimeException('Install the KOVA theme first; activation is not required for import.');
     $report=['pages_created'=>0,'categories_created'=>0,'media_created'=>0,'existing_items_preserved'=>0,'page_ids'=>[]];
-    $data=kova_content_data();
+    $data=kova_phase1_data();
     foreach($data['pages'] as $key=>$page){
         $id=kova_seed_find('page','page:'.$key);
         if(!$id){

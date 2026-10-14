@@ -1,17 +1,29 @@
 <?php
 /**
  * Plugin Name: KOVA Content
- * Description: Sourcing category management, ACF Free fields and a non-destructive Phase 1 importer.
- * Version: 0.1.2
+ * Description: Sourcing category management, ACF Free fields and a non-destructive phase-specific importers.
+ * Version: 0.2.0
  * Requires at least: 6.6
  * Requires PHP: 8.1
  * License: GPL-2.0-or-later
  */
 defined('ABSPATH') || exit;
-function kova_content_data(): array {
+function kova_phase1_data(): array {
     static $data;
     if ($data === null) $data = json_decode(file_get_contents(__DIR__ . '/data/initial-content.json'), true);
     return $data ?: [];
+}
+function kova_phase2_data(): array {
+    static $data;
+    if ($data === null) $data = json_decode(file_get_contents(__DIR__ . '/data/phase2-content.json'), true);
+    return $data ?: [];
+}
+function kova_content_data(): array {
+    $initial = kova_phase1_data(); $second = kova_phase2_data();
+    // Existing Phase 1 names/keys/defaults always win; its source manifest is unchanged.
+    $initial['pages'] += $second['pages'] ?? [];
+    $initial['categories'] = array_merge($initial['categories'], $second['categories'] ?? []);
+    return $initial;
 }
 add_action('init', function () {
     register_post_type('kova_category', [
@@ -67,7 +79,7 @@ add_action('acf/init',function(){
         ['key'=>'field_kova_description','name'=>'kova_description','label'=>'Short introduction','type'=>'textarea','rows'=>3,'new_lines'=>'','required'=>1],
         ['key'=>'field_kova_options','name'=>'kova_options','label'=>'Product options','type'=>'textarea','rows'=>3,'new_lines'=>''],
         ['key'=>'field_kova_customization','name'=>'kova_customization','label'=>'Customization to discuss','type'=>'textarea','rows'=>3,'new_lines'=>''],
-        ['key'=>'field_kova_order','name'=>'kova_order','label'=>'Display order','type'=>'number','min'=>0,'step'=>1,'default_value'=>999,'instructions'=>'Lower numbers appear first. Original Cat categories use 1–8.'],
+        ['key'=>'field_kova_order','name'=>'kova_order','label'=>'Display order','type'=>'number','min'=>0,'step'=>1,'default_value'=>999,'instructions'=>'Lower numbers appear first. Cat and Dog lists are sorted independently.'],
         ['key'=>'field_kova_visible','name'=>'kova_visible','label'=>'Display on category page','type'=>'true_false','ui'=>1,'default_value'=>1,'instructions'=>'Also requires Published status and the matching Cat or Dog assignment.'],
     ];
     acf_add_local_field_group(['key'=>'group_kova_category','title'=>'Sourcing category details','fields'=>$fields,'location'=>[[['param'=>'post_type','operator'=>'==','value'=>'kova_category']]]]);
@@ -79,8 +91,11 @@ add_action('admin_notices',function(){
 require __DIR__.'/import.php';
 // Fixed KOVA templates use a compact classic admin screen with ACF fields, not a layout canvas.
 add_filter('use_block_editor_for_post',function($use,$post){
-    return in_array(get_post_meta($post->ID,'_wp_page_template',true),['templates/page-home.php','templates/page-cat-products.php'],true)?false:$use;
+    return in_array(get_post_meta($post->ID,'_wp_page_template',true),array_map(fn($key)=>'templates/page-'.$key.'.php',array_keys(kova_content_data()['pages'])),true)?false:$use;
 },10,2);
 
 // Explicit staging2-only homepage setup; no activation side effects.
 require __DIR__ . '/home-setup.php';
+
+require __DIR__ . '/phase2-import.php';
+require __DIR__ . '/contact-integration.php';

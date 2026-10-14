@@ -1,0 +1,22 @@
+/* Only the Contact embed; fixed KOVA typography/palette, no changes to Fluent Forms submission logic. */
+.contact-page .kova-fluent-wrapper{min-width:0}
+.contact-page .kova-fluent-wrapper .fluentform,.contact-page .kova-fluent-wrapper .fluentform form{font-family:"DM Sans",Arial,Helvetica,sans-serif;color:var(--ink);font-size:12px;line-height:1.75}
+.contact-page .kova-fluent-wrapper .ff-el-group{margin-bottom:22px}
+.contact-page .kova-fluent-wrapper .ff-el-input--label{margin-bottom:7px}
+.contact-page .kova-fluent-wrapper .ff-el-input--label label{font-weight:400;font-size:12px;color:var(--ink)}
+.contact-page .kova-fluent-wrapper .ff-el-form-control{font-family:inherit;font-size:14px;color:var(--ink);background:transparent;border:1px solid var(--line);border-radius:0;padding:11px 12px;box-shadow:none;min-height:46px;line-height:1.5;width:100%}
+.contact-page .kova-fluent-wrapper textarea.ff-el-form-control{min-height:150px;resize:vertical}
+.contact-page .kova-fluent-wrapper .ff-el-form-control:focus{border-color:#64715d;box-shadow:0 0 0 2px var(--ivory);outline:2px solid transparent;outline-offset:2px}
+.contact-page .kova-fluent-wrapper .ff-btn-submit{display:inline-flex;align-items:center;gap:26px;font-family:inherit;font-size:12px;font-weight:400;min-height:48px;padding:13px 22px;border:1px solid var(--ink);border-radius:0;background:var(--ink);color:var(--paper);box-shadow:none;cursor:pointer;transition:background .2s,color .2s}
+.contact-page .kova-fluent-wrapper .ff-btn-submit:not(:disabled):hover{background:#55584e;color:white}
+.contact-page .kova-fluent-wrapper .ff-btn-submit:focus-visible{outline:2px solid var(--sage);outline-offset:4px}
+.contact-page .kova-fluent-wrapper .ff-el-is-error .ff-el-form-control{border-color:var(--ink)}
+.contact-page .kova-fluent-wrapper .error,.contact-page .kova-fluent-wrapper .ff-el-error,.contact-page .kova-fluent-wrapper .text-danger{color:var(--ink);font-size:11px}
+.contact-page .kova-fluent-wrapper .ff-message-success{color:var(--ink);border-color:var(--sage);background:var(--ivory);border-radius:0}
+.contact-page .kova-fluent-wrapper .ff-t-container{gap:22px}
+.contact-page .kova-fluent-wrapper .ff-t-cell{padding:0!important;min-width:0}
+@media(max-width:800px){.contact-page .kova-fluent-wrapper .ff-t-container{display:block}.contact-page .kova-fluent-wrapper .ff-t-cell{width:100%}}
+@media(prefers-reduced-motion:reduce){.contact-page .kova-fluent-wrapper .ff-btn-submit{transition:none}}
+.contact-page .kova-fluent-wrapper .ff-btn-submit::after{content:"";width:16px;height:16px;display:block;background:currentColor;mask:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2020%2020%22%3E%3Cpath%20d%3D%22M5%2015%2015%205M5%205h10v10%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.2%22%2F%3E%3C%2Fsvg%3E") center/contain no-repeat;transition:transform .22s ease}
+@media(hover:hover) and (pointer:fine){.contact-page .kova-fluent-wrapper .ff-btn-submit:not(:disabled):hover::after{transform:translate(2px,-2px)}}
+@media(prefers-reduced-motion:reduce){.contact-page .kova-fluent-wrapper .ff-btn-submit::after{transition:none;transform:none!important}}

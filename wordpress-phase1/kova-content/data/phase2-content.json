@@ -1,0 +1,1431 @@
+{
+  "version": 2,
+  "pages": {
+    "dog-products": {
+      "title": "Dog Products",
+      "slug": "dog-products",
+      "fields": {
+        "image_1": {
+          "label": "Image: AI-generated dog-bed fabric, harness webbing, hardware and blank private-la",
+          "type": "image",
+          "default": "assets/images/dog-expansion/customisation.webp",
+          "alt": "AI-generated dog-bed fabric, harness webbing, hardware and blank private-label packaging samples",
+          "size": "cover",
+          "position": "center"
+        },
+        "text_2": {
+          "label": "P: DOG PRODUCTS / SOURCING & COORDINATION",
+          "type": "textarea",
+          "default": "DOG PRODUCTS / SOURCING & COORDINATION"
+        },
+        "text_3": {
+          "label": "H1: For dogs.",
+          "type": "textarea",
+          "default": "For dogs."
+        },
+        "text_4": {
+          "label": "H1: For considered collections.",
+          "type": "textarea",
+          "default": "For considered collections."
+        },
+        "text_5": {
+          "label": "P: Independent China sourcing support for international pet brands, impor",
+          "type": "textarea",
+          "default": "Independent China sourcing support for international pet brands, importers and retailers."
+        },
+        "text_6": {
+          "label": "P: Based in Shenzhen, KOVA helps you research potential manufacturers, co",
+          "type": "textarea",
+          "default": "Based in Shenzhen, KOVA helps you research potential manufacturers, compare quotations and coordinate dog product development, samples and production."
+        },
+        "text_7": {
+          "label": "P: Independent B2B sourcing and supplier coordination in Shenzhen, China.",
+          "type": "textarea",
+          "default": "Independent B2B sourcing and supplier coordination in Shenzhen, China."
+        },
+        "text_8": {
+          "label": "P: PRODUCT POSSIBILITIES",
+          "type": "textarea",
+          "default": "PRODUCT POSSIBILITIES"
+        },
+        "text_9": {
+          "label": "H2: Explore dog product categories.",
+          "type": "textarea",
+          "default": "Explore dog product categories."
+        },
+        "text_10": {
+          "label": "P: Sourcing categories shaped around",
+          "type": "textarea",
+          "default": "Sourcing categories shaped around"
+        },
+        "text_11": {
+          "label": "P: your product brief.",
+          "type": "textarea",
+          "default": "your product brief."
+        },
+        "text_12": {
+          "label": "P: AI-generated imagery is used for illustration only. Product details an",
+          "type": "textarea",
+          "default": "AI-generated imagery is used for illustration only. Product details and availability are subject to supplier confirmation."
+        },
+        "text_13": {
+          "label": "P: Developing a range for both cats and dogs?",
+          "type": "textarea",
+          "default": "Developing a range for both cats and dogs? "
+        },
+        "text_14": {
+          "label": "P: YOUR BRAND / YOUR PRODUCT BRIEF",
+          "type": "textarea",
+          "default": "YOUR BRAND / YOUR PRODUCT BRIEF"
+        },
+        "text_15": {
+          "label": "H2: Customization",
+          "type": "textarea",
+          "default": "Customization"
+        },
+        "text_16": {
+          "label": "H2: & Private Label",
+          "type": "textarea",
+          "default": "& Private Label"
+        },
+        "text_17": {
+          "label": "P: KOVA coordinates materials, branding and packaging requirements with p",
+          "type": "textarea",
+          "default": "KOVA coordinates materials, branding and packaging requirements with potential manufacturers, with options subject to supplier feasibility."
+        },
+        "text_18": {
+          "label": "H3: Materials & finishes",
+          "type": "textarea",
+          "default": "Materials & finishes"
+        },
+        "text_19": {
+          "label": "P: Discuss dog-bed fabrics, webbing, textiles, rubber, ceramics or hardwa",
+          "type": "textarea",
+          "default": "Discuss dog-bed fabrics, webbing, textiles, rubber, ceramics or hardware relevant to your product and preferred finish."
+        },
+        "text_20": {
+          "label": "H3: Colours & sizes",
+          "type": "textarea",
+          "default": "Colours & sizes"
+        },
+        "text_21": {
+          "label": "P: Explore colour palettes, bed dimensions, garment sizes and harness fit",
+          "type": "textarea",
+          "default": "Explore colour palettes, bed dimensions, garment sizes and harness fit ranges. Final options depend on supplier feasibility."
+        },
+        "text_22": {
+          "label": "H3: Branding & logo placement",
+          "type": "textarea",
+          "default": "Branding & logo placement"
+        },
+        "text_23": {
+          "label": "P: Coordinate woven labels, embroidery, print proposals and suitable logo",
+          "type": "textarea",
+          "default": "Coordinate woven labels, embroidery, print proposals and suitable logo placement on the selected materials."
+        },
+        "text_24": {
+          "label": "H3: Private-label packaging",
+          "type": "textarea",
+          "default": "Private-label packaging"
+        },
+        "text_25": {
+          "label": "P: Discuss packaging formats, artwork, labels and packing requirements fo",
+          "type": "textarea",
+          "default": "Discuss packaging formats, artwork, labels and packing requirements for your brand and target market."
+        },
+        "text_26": {
+          "label": "H3: Specifications & samples",
+          "type": "textarea",
+          "default": "Specifications & samples"
+        },
+        "text_27": {
+          "label": "P: Clarify sizing, materials and design requirements, coordinate samples ",
+          "type": "textarea",
+          "default": "Clarify sizing, materials and design requirements, coordinate samples and relay feedback before production decisions."
+        },
+        "text_28": {
+          "label": "P: PRACTICAL SUPPORT IN CHINA",
+          "type": "textarea",
+          "default": "PRACTICAL SUPPORT IN CHINA"
+        },
+        "text_29": {
+          "label": "H2: Dog Product",
+          "type": "textarea",
+          "default": "Dog Product"
+        },
+        "text_30": {
+          "label": "H2: Sourcing Support",
+          "type": "textarea",
+          "default": "Sourcing Support"
+        },
+        "text_31": {
+          "label": "P: Flexible coordination for small and medium-sized brands, from supplier",
+          "type": "textarea",
+          "default": "Flexible coordination for small and medium-sized brands, from supplier discussions to production follow-up."
+        },
+        "text_32": {
+          "label": "H3: Supplier research & shortlisting",
+          "type": "textarea",
+          "default": "Supplier research & shortlisting"
+        },
+        "text_33": {
+          "label": "P: Research potential manufacturers and compare suitability against your ",
+          "type": "textarea",
+          "default": "Research potential manufacturers and compare suitability against your category, materials and target-market requirements."
+        },
+        "text_34": {
+          "label": "H3: Quotation & MOQ comparisons",
+          "type": "textarea",
+          "default": "Quotation & MOQ comparisons"
+        },
+        "text_35": {
+          "label": "P: Compare supplier quotations and stated minimum order quantities, inclu",
+          "type": "textarea",
+          "default": "Compare supplier quotations and stated minimum order quantities, including differences in specification, packaging and order scope."
+        },
+        "text_36": {
+          "label": "H3: Sample & customisation coordination",
+          "type": "textarea",
+          "default": "Sample & customisation coordination"
+        },
+        "text_37": {
+          "label": "P: Organise sample requests, clarify changes and relay feedback on materi",
+          "type": "textarea",
+          "default": "Organise sample requests, clarify changes and relay feedback on materials, dimensions and branding."
+        },
+        "text_38": {
+          "label": "H3: Factory visits & production follow-up",
+          "type": "textarea",
+          "default": "Factory visits & production follow-up"
+        },
+        "text_39": {
+          "label": "P: Arrange visits where appropriate and follow up on agreed milestones. S",
+          "type": "textarea",
+          "default": "Arrange visits where appropriate and follow up on agreed milestones. Scope and availability are confirmed for each project."
+        },
+        "text_40": {
+          "label": "H3: Packaging & shipment coordination",
+          "type": "textarea",
+          "default": "Packaging & shipment coordination"
+        },
+        "text_41": {
+          "label": "P: Follow up on packing details and shipment arrangements with suppliers ",
+          "type": "textarea",
+          "default": "Follow up on packing details and shipment arrangements with suppliers and your chosen logistics partners."
+        },
+        "text_42": {
+          "label": "P: START WITH YOUR PRODUCT BRIEF",
+          "type": "textarea",
+          "default": "START WITH YOUR PRODUCT BRIEF"
+        },
+        "text_43": {
+          "label": "H2: Looking to develop your next",
+          "type": "textarea",
+          "default": "Looking to develop your next"
+        },
+        "text_44": {
+          "label": "H2: dog product collection?",
+          "type": "textarea",
+          "default": "dog product collection?"
+        },
+        "text_45": {
+          "label": "P: Share your product ideas, specifications and target quantities. Let's ",
+          "type": "textarea",
+          "default": "Share your product ideas, specifications and target quantities. Let's explore suitable sourcing options in China."
+        },
+        "link_46": {
+          "label": "Destination: Explore Categories",
+          "type": "text",
+          "default": "#dog-categories",
+          "instructions": "Use the existing site link, #section, or an HTTPS URL."
+        },
+        "text_47": {
+          "label": "Link label: Explore Categories",
+          "type": "text",
+          "default": "Explore Categories"
+        },
+        "link_48": {
+          "label": "Destination: Customization & Private Label",
+          "type": "text",
+          "default": "#dog-customisation",
+          "instructions": "Use the existing site link, #section, or an HTTPS URL."
+        },
+        "text_49": {
+          "label": "Link label: Customization & Private Label",
+          "type": "text",
+          "default": "Customization & Private Label"
+        },
+        "link_50": {
+          "label": "Destination: Sourcing Support",
+          "type": "text",
+          "default": "#dog-support",
+          "instructions": "Use the existing site link, #section, or an HTTPS URL."
+        },
+        "text_51": {
+          "label": "Link label: Sourcing Support",
+          "type": "text",
+          "default": "Sourcing Support"
+        },
+        "link_52": {
+          "label": "Destination: Explore Cat Products",
+          "type": "text",
+          "default": "cat-products.html",
+          "instructions": "Use the existing site link, #section, or an HTTPS URL."
+        },
+        "text_53": {
+          "label": "Link label: Explore Cat Products",
+          "type": "text",
+          "default": "Explore Cat Products "
+        },
+        "link_54": {
+          "label": "Destination: View All Sourcing Services",
+          "type": "text",
+          "default": "sourcing-services.html",
+          "instructions": "Use the existing site link, #section, or an HTTPS URL."
+        },
+        "text_55": {
+          "label": "Link label: View All Sourcing Services",
+          "type": "text",
+          "default": "View All Sourcing Services "
+        },
+        "link_56": {
+          "label": "Destination: Discuss Your Sourcing Project",
+          "type": "text",
+          "default": "contact.html",
+          "instructions": "Use the existing site link, #section, or an HTTPS URL."
+        },
+        "text_57": {
+          "label": "Link label: Discuss Your Sourcing Project",
+          "type": "text",
+          "default": "Discuss Your Sourcing Project "
+        }
+      },
+      "html_class": "dog-sourcing-page",
+      "description": "Explore eight dog product sourcing categories, private-label customisation and supplier coordination with KOVA, an independent China-based service for international pet brands."
+    },
+    "sourcing-services": {
+      "title": "Sourcing Services",
+      "slug": "sourcing-services",
+      "fields": {
+        "image_1": {
+          "label": "Image: AI-generated concept of pet product samples, fabric swatches and plain pack",
+          "type": "image",
+          "default": "assets/images/services/workspace.webp",
+          "alt": "AI-generated concept of pet product samples, fabric swatches and plain packaging on a sourcing workspace",
+          "size": "cover",
+          "position": "center"
+        },
+        "text_2": {
+          "label": "P: INDEPENDENT SOURCING / SHENZHEN, CHINA",
+          "type": "textarea",
+          "default": "INDEPENDENT SOURCING / SHENZHEN, CHINA"
+        },
+        "text_3": {
+          "label": "H1: Your sourcing",
+          "type": "textarea",
+          "default": "Your sourcing"
+        },
+        "text_4": {
+          "label": "H1: partner in China.",
+          "type": "textarea",
+          "default": "partner in China."
+        },
+        "text_5": {
+          "label": "P: Practical sourcing and supplier coordination for international pet bra",
+          "type": "textarea",
+          "default": "Practical sourcing and supplier coordination for international pet brands, importers and retailers."
+        },
+        "text_6": {
+          "label": "P: From researching manufacturers to following up on samples, production ",
+          "type": "textarea",
+          "default": "From researching manufacturers to following up on samples, production and shipments, KOVA helps connect your cat and dog product brief with the conversations on the ground."
+        },
+        "text_7": {
+          "label": "FIGCAPTION: AI-generated imagery is used for illustration only. Product details an",
+          "type": "textarea",
+          "default": "AI-generated imagery is used for illustration only. Product details and availability are subject to supplier confirmation."
+        },
+        "text_8": {
+          "label": "SPAN: SUPPORT THROUGH YOUR PROJECT",
+          "type": "textarea",
+          "default": "SUPPORT THROUGH YOUR PROJECT"
+        },
+        "text_9": {
+          "label": "P: FIND A SUITABLE STARTING POINT",
+          "type": "textarea",
+          "default": "FIND A SUITABLE STARTING POINT"
+        },
+        "text_10": {
+          "label": "H2: Better information.",
+          "type": "textarea",
+          "default": "Better information."
+        },
+        "text_11": {
+          "label": "H2: Clearer decisions.",
+          "type": "textarea",
+          "default": "Clearer decisions."
+        },
+        "text_12": {
+          "label": "P: Understand the options before deciding how to move your product brief ",
+          "type": "textarea",
+          "default": "Understand the options before deciding how to move your product brief forward."
+        },
+        "text_13": {
+          "label": "H3: Supplier Research & Shortlisting",
+          "type": "textarea",
+          "default": "Supplier Research & Shortlisting"
+        },
+        "text_14": {
+          "label": "P: Research potential manufacturers against your product category, materi",
+          "type": "textarea",
+          "default": "Research potential manufacturers against your product category, materials and target-market requirements. Discuss suitability and shortlist options for further enquiries."
+        },
+        "text_15": {
+          "label": "H3: Supplier Communication & Quotation Comparison",
+          "type": "textarea",
+          "default": "Supplier Communication & Quotation Comparison"
+        },
+        "text_16": {
+          "label": "P: Clarify specifications and supplier responses. Compare quoted prices, ",
+          "type": "textarea",
+          "default": "Clarify specifications and supplier responses. Compare quoted prices, stated MOQs, packaging, lead times and scope so differences are easier to assess."
+        },
+        "text_17": {
+          "label": "P: TURN YOUR BRIEF INTO DISCUSSIONS",
+          "type": "textarea",
+          "default": "TURN YOUR BRIEF INTO DISCUSSIONS"
+        },
+        "text_18": {
+          "label": "H2: Develop the details.",
+          "type": "textarea",
+          "default": "Develop the details."
+        },
+        "text_19": {
+          "label": "P: Materials, branding and samples —",
+          "type": "textarea",
+          "default": "Materials, branding and samples —"
+        },
+        "text_20": {
+          "label": "P: coordinated around your requirements.",
+          "type": "textarea",
+          "default": "coordinated around your requirements."
+        },
+        "text_21": {
+          "label": "H3: Product Customization & OEM/ODM Coordination",
+          "type": "textarea",
+          "default": "Product Customization & OEM/ODM Coordination"
+        },
+        "text_22": {
+          "label": "P: Coordinate discussions on materials, dimensions, colours, logo placeme",
+          "type": "textarea",
+          "default": "Coordinate discussions on materials, dimensions, colours, logo placement and packaging. Supplier feasibility, sample approval and ownership terms are clarified before proceeding."
+        },
+        "text_23": {
+          "label": "H3: Sample Development & Follow-up",
+          "type": "textarea",
+          "default": "Sample Development & Follow-up"
+        },
+        "text_24": {
+          "label": "P: Organise sample requests, track progress and relay your feedback. Keep",
+          "type": "textarea",
+          "default": "Organise sample requests, track progress and relay your feedback. Keep proposed changes visible so you can refine specifications before placing an order."
+        },
+        "text_25": {
+          "label": "P: You make the product decisions. KOVA helps organise the information an",
+          "type": "textarea",
+          "default": "You make the product decisions. KOVA helps organise the information and supplier communication."
+        },
+        "text_26": {
+          "label": "P: KEEP THE NEXT STEP IN VIEW",
+          "type": "textarea",
+          "default": "KEEP THE NEXT STEP IN VIEW"
+        },
+        "text_27": {
+          "label": "H2: Coordinate. Follow up. Stay informed.",
+          "type": "textarea",
+          "default": "Coordinate. Follow up. Stay informed."
+        },
+        "text_28": {
+          "label": "H3: Factory Visits & Production Coordination",
+          "type": "textarea",
+          "default": "Factory Visits & Production Coordination"
+        },
+        "text_29": {
+          "label": "P: Arrange factory visits and follow up on agreed production milestones, ",
+          "type": "textarea",
+          "default": "Arrange factory visits and follow up on agreed production milestones, with scope and availability confirmed for your project."
+        },
+        "text_30": {
+          "label": "H3: Quality Issue Follow-up",
+          "type": "textarea",
+          "default": "Quality Issue Follow-up"
+        },
+        "text_31": {
+          "label": "P: Communicate reported issues, gather supplier responses and coordinate ",
+          "type": "textarea",
+          "default": "Communicate reported issues, gather supplier responses and coordinate next steps. Specialist testing or independent inspection requires separate arrangements where applicable."
+        },
+        "text_32": {
+          "label": "H3: Order & Shipment Coordination",
+          "type": "textarea",
+          "default": "Order & Shipment Coordination"
+        },
+        "text_33": {
+          "label": "P: Follow up on order details, packing information and shipment arrangeme",
+          "type": "textarea",
+          "default": "Follow up on order details, packing information and shipment arrangements with suppliers and your chosen logistics partners, keeping outstanding questions clear."
+        },
+        "text_34": {
+          "label": "P: WHY WORK WITH KOVA",
+          "type": "textarea",
+          "default": "WHY WORK WITH KOVA"
+        },
+        "text_35": {
+          "label": "H2: A local perspective.",
+          "type": "textarea",
+          "default": "A local perspective."
+        },
+        "text_36": {
+          "label": "H2: A direct working relationship.",
+          "type": "textarea",
+          "default": "A direct working relationship."
+        },
+        "text_37": {
+          "label": "P: Shenzhen-based supplier communication and flexible project-based suppo",
+          "type": "textarea",
+          "default": "Shenzhen-based supplier communication and flexible project-based support for small and medium-sized businesses."
+        },
+        "text_38": {
+          "label": "P: APPROXIMATELY",
+          "type": "textarea",
+          "default": "APPROXIMATELY"
+        },
+        "text_39": {
+          "label": "H3: Years of international business & sourcing experience",
+          "type": "textarea",
+          "default": "Years of international business & sourcing experience"
+        },
+        "text_40": {
+          "label": "P: Experience in supplier communication, sourcing coordination, productio",
+          "type": "textarea",
+          "default": "Experience in supplier communication, sourcing coordination, production follow-up, quality issue resolution and international order management."
+        },
+        "text_41": {
+          "label": "P: WHAT YOU CAN EXPECT",
+          "type": "textarea",
+          "default": "WHAT YOU CAN EXPECT"
+        },
+        "text_42": {
+          "label": "H2: Useful information.",
+          "type": "textarea",
+          "default": "Useful information."
+        },
+        "text_43": {
+          "label": "H2: Agreed around your project.",
+          "type": "textarea",
+          "default": "Agreed around your project."
+        },
+        "text_44": {
+          "label": "P: These are potential deliverables to discuss when defining the scope, r",
+          "type": "textarea",
+          "default": "These are potential deliverables to discuss when defining the scope, rather than fixed packages or guaranteed outcomes."
+        },
+        "text_45": {
+          "label": "H3: Supplier shortlist & comparison notes",
+          "type": "textarea",
+          "default": "Supplier shortlist & comparison notes"
+        },
+        "text_46": {
+          "label": "P: Potential manufacturer options and points to clarify.",
+          "type": "textarea",
+          "default": "Potential manufacturer options and points to clarify."
+        },
+        "text_47": {
+          "label": "H3: Quotation & MOQ comparison",
+          "type": "textarea",
+          "default": "Quotation & MOQ comparison"
+        },
+        "text_48": {
+          "label": "P: Differences in quoted scope and stated order requirements.",
+          "type": "textarea",
+          "default": "Differences in quoted scope and stated order requirements."
+        },
+        "text_49": {
+          "label": "H3: Sample & customisation updates",
+          "type": "textarea",
+          "default": "Sample & customisation updates"
+        },
+        "text_50": {
+          "label": "P: Progress, supplier responses and proposed changes.",
+          "type": "textarea",
+          "default": "Progress, supplier responses and proposed changes."
+        },
+        "text_51": {
+          "label": "H3: Production milestone follow-up",
+          "type": "textarea",
+          "default": "Production milestone follow-up"
+        },
+        "text_52": {
+          "label": "P: Updates on the stages agreed for your project.",
+          "type": "textarea",
+          "default": "Updates on the stages agreed for your project."
+        },
+        "text_53": {
+          "label": "H3: Shipment coordination updates",
+          "type": "textarea",
+          "default": "Shipment coordination updates"
+        },
+        "text_54": {
+          "label": "P: Packing and delivery questions followed up with relevant parties.",
+          "type": "textarea",
+          "default": "Packing and delivery questions followed up with relevant parties."
+        },
+        "text_55": {
+          "label": "H3: A clear scope, before work begins.",
+          "type": "textarea",
+          "default": "A clear scope, before work begins."
+        },
+        "text_56": {
+          "label": "P: KOVA is an independent sourcing and coordination service, not a manufa",
+          "type": "textarea",
+          "default": "KOVA is an independent sourcing and coordination service, not a manufacturer, certification body or inspection laboratory. Scope, fees and responsibilities are agreed before work begins. Specialist inspections, testing and regulatory compliance require separate arrangements where applicable."
+        },
+        "text_57": {
+          "label": "P: START WITH YOUR REQUIREMENTS",
+          "type": "textarea",
+          "default": "START WITH YOUR REQUIREMENTS"
+        },
+        "text_58": {
+          "label": "H2: Tell us what you're looking to source.",
+          "type": "textarea",
+          "default": "Tell us what you're looking to source."
+        },
+        "text_59": {
+          "label": "P: Share your product requirements, target quantity and customization ide",
+          "type": "textarea",
+          "default": "Share your product requirements, target quantity and customization ideas. Let's discuss how KOVA can support your project."
+        },
+        "link_60": {
+          "label": "Destination: Start a Sourcing Inquiry",
+          "type": "text",
+          "default": "contact.html",
+          "instructions": "Use the existing site link, #section, or an HTTPS URL."
+        },
+        "text_61": {
+          "label": "Link label: Start a Sourcing Inquiry",
+          "type": "text",
+          "default": "Start a Sourcing Inquiry "
+        },
+        "link_62": {
+          "label": "Destination: 01 Research & Compare",
+          "type": "text",
+          "default": "#research",
+          "instructions": "Use the existing site link, #section, or an HTTPS URL."
+        },
+        "text_63": {
+          "label": "Link label: 01 Research & Compare",
+          "type": "text",
+          "default": " Research & Compare "
+        },
+        "link_64": {
+          "label": "Destination: 02 Develop & Refine",
+          "type": "text",
+          "default": "#development",
+          "instructions": "Use the existing site link, #section, or an HTTPS URL."
+        },
+        "text_65": {
+          "label": "Link label: 02 Develop & Refine",
+          "type": "text",
+          "default": " Develop & Refine "
+        },
+        "link_66": {
+          "label": "Destination: 03 Coordinate & Follow Up",
+          "type": "text",
+          "default": "#coordination",
+          "instructions": "Use the existing site link, #section, or an HTTPS URL."
+        },
+        "text_67": {
+          "label": "Link label: 03 Coordinate & Follow Up",
+          "type": "text",
+          "default": " Coordinate & Follow Up "
+        },
+        "link_68": {
+          "label": "Destination: About KOVA",
+          "type": "text",
+          "default": "about.html",
+          "instructions": "Use the existing site link, #section, or an HTTPS URL."
+        },
+        "text_69": {
+          "label": "Link label: About KOVA",
+          "type": "text",
+          "default": "About KOVA "
+        },
+        "link_70": {
+          "label": "Destination: Start a Sourcing Inquiry",
+          "type": "text",
+          "default": "contact.html",
+          "instructions": "Use the existing site link, #section, or an HTTPS URL."
+        },
+        "text_71": {
+          "label": "Link label: Start a Sourcing Inquiry",
+          "type": "text",
+          "default": "Start a Sourcing Inquiry "
+        }
+      },
+      "html_class": "services-page",
+      "description": "Independent sourcing and supplier coordination in Shenzhen for international pet brands. Explore research, customisation, sample, production and shipment support."
+    },
+    "how-we-work": {
+      "title": "How We Work",
+      "slug": "how-we-work",
+      "fields": {
+        "image_1": {
+          "label": "Image: AI-generated concept of a blank product brief notebook, neutral fabric swat",
+          "type": "image",
+          "default": "assets/images/how-we-work/brief-workspace.webp",
+          "alt": "AI-generated concept of a blank product brief notebook, neutral fabric swatches and packaging samples on a light oak desk",
+          "size": "cover",
+          "position": "center"
+        },
+        "text_2": {
+          "label": "P: HOW WE WORK / INDEPENDENT SOURCING IN CHINA",
+          "type": "textarea",
+          "default": "HOW WE WORK / INDEPENDENT SOURCING IN CHINA"
+        },
+        "text_3": {
+          "label": "H1: One brief.",
+          "type": "textarea",
+          "default": "One brief."
+        },
+        "text_4": {
+          "label": "H1: A clearer way forward.",
+          "type": "textarea",
+          "default": "A clearer way forward."
+        },
+        "text_5": {
+          "label": "P: Five practical stages, adapted to your product, priorities and timelin",
+          "type": "textarea",
+          "default": "Five practical stages, adapted to your product, priorities and timeline."
+        },
+        "text_6": {
+          "label": "P: For international pet brands, importers and retailers sourcing cat and",
+          "type": "textarea",
+          "default": "For international pet brands, importers and retailers sourcing cat and dog products. Start with what you know; we can discuss the support your project needs."
+        },
+        "text_7": {
+          "label": "FIGCAPTION: AI-generated imagery is used for illustration only. Product details an",
+          "type": "textarea",
+          "default": "AI-generated imagery is used for illustration only. Product details and availability are subject to supplier confirmation."
+        },
+        "text_8": {
+          "label": "P: FROM YOUR BRIEF TO DELIVERY COORDINATION",
+          "type": "textarea",
+          "default": "FROM YOUR BRIEF TO DELIVERY COORDINATION"
+        },
+        "text_9": {
+          "label": "H2: A practical path through sourcing.",
+          "type": "textarea",
+          "default": "A practical path through sourcing."
+        },
+        "text_10": {
+          "label": "P: Each stage has a clear purpose.",
+          "type": "textarea",
+          "default": "Each stage has a clear purpose."
+        },
+        "text_11": {
+          "label": "P: The scope is agreed around your project.",
+          "type": "textarea",
+          "default": "The scope is agreed around your project."
+        },
+        "text_12": {
+          "label": "H3: Share Your Product Requirements",
+          "type": "textarea",
+          "default": "Share Your Product Requirements"
+        },
+        "text_13": {
+          "label": "P: Tell us about your brand, category, preferred materials, target quanti",
+          "type": "textarea",
+          "default": "Tell us about your brand, category, preferred materials, target quantities and timing. We clarify what you need and which stages require support."
+        },
+        "text_14": {
+          "label": "P: Practical next step",
+          "type": "textarea",
+          "default": "Practical next step"
+        },
+        "text_15": {
+          "label": "P: An initial brief to guide the sourcing discussion.",
+          "type": "textarea",
+          "default": "An initial brief to guide the sourcing discussion."
+        },
+        "text_16": {
+          "label": "H3: Supplier Research & Initial Evaluation",
+          "type": "textarea",
+          "default": "Supplier Research & Initial Evaluation"
+        },
+        "text_17": {
+          "label": "P: Research potential manufacturers and discuss how their options fit you",
+          "type": "textarea",
+          "default": "Research potential manufacturers and discuss how their options fit your requirements. Identify questions to clarify before requesting detailed proposals."
+        },
+        "text_18": {
+          "label": "P: Practical next step",
+          "type": "textarea",
+          "default": "Practical next step"
+        },
+        "text_19": {
+          "label": "P: Supplier options and evaluation notes to discuss.",
+          "type": "textarea",
+          "default": "Supplier options and evaluation notes to discuss."
+        },
+        "text_20": {
+          "label": "H3: Quotations & Sample Coordination",
+          "type": "textarea",
+          "default": "Quotations & Sample Coordination"
+        },
+        "text_21": {
+          "label": "P: Compare supplier quotations, clarify stated MOQs and coordinate sample",
+          "type": "textarea",
+          "default": "Compare supplier quotations, clarify stated MOQs and coordinate sample requests. Relay your feedback so the product details can be refined."
+        },
+        "text_22": {
+          "label": "P: Practical next step",
+          "type": "textarea",
+          "default": "Practical next step"
+        },
+        "text_23": {
+          "label": "P: Quotation information and sample feedback for your order decision.",
+          "type": "textarea",
+          "default": "Quotation information and sample feedback for your order decision."
+        },
+        "text_24": {
+          "label": "H3: Production Follow-up",
+          "type": "textarea",
+          "default": "Production Follow-up"
+        },
+        "text_25": {
+          "label": "P: Keep supplier communication moving and follow up on the production mil",
+          "type": "textarea",
+          "default": "Keep supplier communication moving and follow up on the production milestones agreed for your project. Raise outstanding questions and reported issues."
+        },
+        "text_26": {
+          "label": "P: Practical next step",
+          "type": "textarea",
+          "default": "Practical next step"
+        },
+        "text_27": {
+          "label": "P: Updates on the milestones included in the agreed scope.",
+          "type": "textarea",
+          "default": "Updates on the milestones included in the agreed scope."
+        },
+        "text_28": {
+          "label": "H3: Delivery Coordination",
+          "type": "textarea",
+          "default": "Delivery Coordination"
+        },
+        "text_29": {
+          "label": "P: Follow up on packing and shipment details with suppliers and your chos",
+          "type": "textarea",
+          "default": "Follow up on packing and shipment details with suppliers and your chosen logistics partners. Clarify the information needed for delivery arrangements."
+        },
+        "text_30": {
+          "label": "P: Practical next step",
+          "type": "textarea",
+          "default": "Practical next step"
+        },
+        "text_31": {
+          "label": "P: Packing and shipment information coordinated with relevant parties.",
+          "type": "textarea",
+          "default": "Packing and shipment information coordinated with relevant parties."
+        },
+        "text_32": {
+          "label": "P: WHAT YOU CAN EXPECT",
+          "type": "textarea",
+          "default": "WHAT YOU CAN EXPECT"
+        },
+        "text_33": {
+          "label": "H2: Information you can work with.",
+          "type": "textarea",
+          "default": "Information you can work with."
+        },
+        "text_34": {
+          "label": "P: The types of notes and updates below can be discussed as part of your ",
+          "type": "textarea",
+          "default": "The types of notes and updates below can be discussed as part of your project scope. They are not automatically included in every engagement."
+        },
+        "text_35": {
+          "label": "H3: Supplier shortlist & comparison notes",
+          "type": "textarea",
+          "default": "Supplier shortlist & comparison notes"
+        },
+        "text_36": {
+          "label": "P: Potential options and questions to clarify.",
+          "type": "textarea",
+          "default": "Potential options and questions to clarify."
+        },
+        "text_37": {
+          "label": "H3: Quotation & MOQ information",
+          "type": "textarea",
+          "default": "Quotation & MOQ information"
+        },
+        "text_38": {
+          "label": "P: Quoted terms and stated order requirements.",
+          "type": "textarea",
+          "default": "Quoted terms and stated order requirements."
+        },
+        "text_39": {
+          "label": "H3: Sample & customisation updates",
+          "type": "textarea",
+          "default": "Sample & customisation updates"
+        },
+        "text_40": {
+          "label": "P: Progress, feedback and proposed changes.",
+          "type": "textarea",
+          "default": "Progress, feedback and proposed changes."
+        },
+        "text_41": {
+          "label": "H3: Production milestone follow-up",
+          "type": "textarea",
+          "default": "Production milestone follow-up"
+        },
+        "text_42": {
+          "label": "P: Updates on agreed production stages.",
+          "type": "textarea",
+          "default": "Updates on agreed production stages."
+        },
+        "text_43": {
+          "label": "H3: Shipment coordination updates",
+          "type": "textarea",
+          "default": "Shipment coordination updates"
+        },
+        "text_44": {
+          "label": "P: Packing and delivery questions followed up.",
+          "type": "textarea",
+          "default": "Packing and delivery questions followed up."
+        },
+        "text_45": {
+          "label": "P: FLEXIBLE, PROJECT-BASED SUPPORT",
+          "type": "textarea",
+          "default": "FLEXIBLE, PROJECT-BASED SUPPORT"
+        },
+        "text_46": {
+          "label": "H2: Built around your project.",
+          "type": "textarea",
+          "default": "Built around your project."
+        },
+        "text_47": {
+          "label": "P: You may need help with one stage, such as supplier research, or severa",
+          "type": "textarea",
+          "default": "You may need help with one stage, such as supplier research, or several stages of sourcing and order coordination."
+        },
+        "text_48": {
+          "label": "P: We discuss scope, fees and responsibilities before work begins. Timeli",
+          "type": "textarea",
+          "default": "We discuss scope, fees and responsibilities before work begins. Timelines and options depend on the product, customisation and supplier availability."
+        },
+        "text_49": {
+          "label": "P: LET’S DISCUSS THE NEXT STEP",
+          "type": "textarea",
+          "default": "LET’S DISCUSS THE NEXT STEP"
+        },
+        "text_50": {
+          "label": "H2: Ready to discuss your sourcing project?",
+          "type": "textarea",
+          "default": "Ready to discuss your sourcing project?"
+        },
+        "text_51": {
+          "label": "P: Tell us what you're looking to source, your target quantities and any ",
+          "type": "textarea",
+          "default": "Tell us what you're looking to source, your target quantities and any customization ideas. We'll discuss the next steps together."
+        },
+        "link_52": {
+          "label": "Destination: Start a Sourcing Inquiry",
+          "type": "text",
+          "default": "contact.html",
+          "instructions": "Use the existing site link, #section, or an HTTPS URL."
+        },
+        "text_53": {
+          "label": "Link label: Start a Sourcing Inquiry",
+          "type": "text",
+          "default": "Start a Sourcing Inquiry "
+        },
+        "link_54": {
+          "label": "Destination: Explore Sourcing Services",
+          "type": "text",
+          "default": "sourcing-services.html",
+          "instructions": "Use the existing site link, #section, or an HTTPS URL."
+        },
+        "text_55": {
+          "label": "Link label: Explore Sourcing Services",
+          "type": "text",
+          "default": "Explore Sourcing Services "
+        },
+        "link_56": {
+          "label": "Destination: Start a Sourcing Inquiry",
+          "type": "text",
+          "default": "contact.html",
+          "instructions": "Use the existing site link, #section, or an HTTPS URL."
+        },
+        "text_57": {
+          "label": "Link label: Start a Sourcing Inquiry",
+          "type": "text",
+          "default": "Start a Sourcing Inquiry "
+        }
+      },
+      "html_class": "work-page",
+      "description": "Five practical sourcing stages with KOVA, from your pet product brief to supplier research, samples, production follow-up and delivery coordination. Flexible project-based support in China."
+    },
+    "about-kova": {
+      "title": "About KOVA",
+      "slug": "about-kova",
+      "fields": {
+        "image_1": {
+          "label": "Image: AI-generated concept of neutral pet product upholstery, webbing, hardware a",
+          "type": "image",
+          "default": "assets/images/about/material-details.webp",
+          "alt": "AI-generated concept of neutral pet product upholstery, webbing, hardware and packaging development details",
+          "size": "cover",
+          "position": "center"
+        },
+        "text_2": {
+          "label": "P: ABOUT KOVA / SHENZHEN, CHINA",
+          "type": "textarea",
+          "default": "ABOUT KOVA / SHENZHEN, CHINA"
+        },
+        "text_3": {
+          "label": "H1: Independent by nature.",
+          "type": "textarea",
+          "default": "Independent by nature."
+        },
+        "text_4": {
+          "label": "H1: Personal by approach.",
+          "type": "textarea",
+          "default": "Personal by approach."
+        },
+        "text_5": {
+          "label": "P: Independent B2B sourcing and supplier coordination for international p",
+          "type": "textarea",
+          "default": "Independent B2B sourcing and supplier coordination for international pet brands, importers and retailers."
+        },
+        "text_6": {
+          "label": "FIGCAPTION: AI-generated imagery is used for illustration only. Product details an",
+          "type": "textarea",
+          "default": "AI-generated imagery is used for illustration only. Product details and availability are subject to supplier confirmation."
+        },
+        "text_7": {
+          "label": "P: WHO WE ARE",
+          "type": "textarea",
+          "default": "WHO WE ARE"
+        },
+        "text_8": {
+          "label": "H2: Closer to the source.",
+          "type": "textarea",
+          "default": "Closer to the source."
+        },
+        "text_9": {
+          "label": "H2: Clearer at every step.",
+          "type": "textarea",
+          "default": "Clearer at every step."
+        },
+        "text_10": {
+          "label": "P: KOVA Sourcing is an independent sourcing service based in Shenzhen, Ch",
+          "type": "textarea",
+          "default": "KOVA Sourcing is an independent sourcing service based in Shenzhen, China, helping international pet brands, importers and retailers explore Chinese manufacturers and coordinate product development and production."
+        },
+        "text_11": {
+          "label": "P: Cat and dog products have equal importance: bedding, toys, feeding acc",
+          "type": "textarea",
+          "default": "Cat and dog products have equal importance: bedding, toys, feeding accessories, grooming products, travel essentials and walking accessories."
+        },
+        "text_12": {
+          "label": "P: With a focus on the needs of small and medium-sized businesses in Euro",
+          "type": "textarea",
+          "default": "With a focus on the needs of small and medium-sized businesses in Europe and North America, KOVA connects product requirements with practical supplier discussions."
+        },
+        "text_13": {
+          "label": "P: Independent sourcing and supplier coordination, based in Shenzhen.",
+          "type": "textarea",
+          "default": "Independent sourcing and supplier coordination, based in Shenzhen."
+        },
+        "text_14": {
+          "label": "P: OUR BACKGROUND",
+          "type": "textarea",
+          "default": "OUR BACKGROUND"
+        },
+        "text_15": {
+          "label": "H2: Built on international business and sourcing experience.",
+          "type": "textarea",
+          "default": "Built on international business and sourcing experience."
+        },
+        "text_16": {
+          "label": "P: KOVA draws on approximately eight years of relevant international busi",
+          "type": "textarea",
+          "default": "KOVA draws on approximately eight years of relevant international business and sourcing experience."
+        },
+        "text_17": {
+          "label": "P: Experience in supplier communication, sourcing coordination, productio",
+          "type": "textarea",
+          "default": "Experience in supplier communication, sourcing coordination, production follow-up, quality issue resolution and international order management."
+        },
+        "text_18": {
+          "label": "P: APPROXIMATELY",
+          "type": "textarea",
+          "default": "APPROXIMATELY "
+        },
+        "text_19": {
+          "label": "P: 8",
+          "type": "textarea",
+          "default": "8"
+        },
+        "text_20": {
+          "label": "P: Years of international business & sourcing experience",
+          "type": "textarea",
+          "default": " Years of international business & sourcing experience"
+        },
+        "text_21": {
+          "label": "H3: Supplier communication",
+          "type": "textarea",
+          "default": "Supplier communication"
+        },
+        "text_22": {
+          "label": "P: Clarifying requirements and comparing quotations.",
+          "type": "textarea",
+          "default": "Clarifying requirements and comparing quotations."
+        },
+        "text_23": {
+          "label": "H3: Production & factory visits",
+          "type": "textarea",
+          "default": "Production & factory visits"
+        },
+        "text_24": {
+          "label": "P: Following up on production and coordinating visits.",
+          "type": "textarea",
+          "default": "Following up on production and coordinating visits."
+        },
+        "text_25": {
+          "label": "H3: Quality issue coordination",
+          "type": "textarea",
+          "default": "Quality issue coordination"
+        },
+        "text_26": {
+          "label": "P: Communicating issues and following up on responses.",
+          "type": "textarea",
+          "default": "Communicating issues and following up on responses."
+        },
+        "text_27": {
+          "label": "H3: International orders & shipments",
+          "type": "textarea",
+          "default": "International orders & shipments"
+        },
+        "text_28": {
+          "label": "P: Coordinating order information and shipment arrangements.",
+          "type": "textarea",
+          "default": "Coordinating order information and shipment arrangements."
+        },
+        "text_29": {
+          "label": "P: WHY KOVA",
+          "type": "textarea",
+          "default": "WHY KOVA"
+        },
+        "text_30": {
+          "label": "H2: A more connected",
+          "type": "textarea",
+          "default": "A more connected"
+        },
+        "text_31": {
+          "label": "H2: way to source.",
+          "type": "textarea",
+          "default": "way to source."
+        },
+        "text_32": {
+          "label": "P: Practical support that keeps the product brief and supplier conversati",
+          "type": "textarea",
+          "default": "Practical support that keeps the product brief and supplier conversations connected."
+        },
+        "text_33": {
+          "label": "H3: Local Presence in China",
+          "type": "textarea",
+          "default": "Local Presence in China"
+        },
+        "text_34": {
+          "label": "P: Shenzhen-based coordination and direct communication with manufacturer",
+          "type": "textarea",
+          "default": "Shenzhen-based coordination and direct communication with manufacturers."
+        },
+        "text_35": {
+          "label": "H3: Clear Supplier Communication",
+          "type": "textarea",
+          "default": "Clear Supplier Communication"
+        },
+        "text_36": {
+          "label": "P: Helping clarify specifications, quotations, timelines and outstanding ",
+          "type": "textarea",
+          "default": "Helping clarify specifications, quotations, timelines and outstanding questions."
+        },
+        "text_37": {
+          "label": "H3: Attention to the Details",
+          "type": "textarea",
+          "default": "Attention to the Details"
+        },
+        "text_38": {
+          "label": "P: Supporting sample discussions, production updates and issue follow-up.",
+          "type": "textarea",
+          "default": "Supporting sample discussions, production updates and issue follow-up."
+        },
+        "text_39": {
+          "label": "H3: Flexible Project Support",
+          "type": "textarea",
+          "default": "Flexible Project Support"
+        },
+        "text_40": {
+          "label": "P: Support tailored to individual sourcing stages or broader order coordi",
+          "type": "textarea",
+          "default": "Support tailored to individual sourcing stages or broader order coordination requirements."
+        },
+        "text_41": {
+          "label": "P: OUR APPROACH",
+          "type": "textarea",
+          "default": "OUR APPROACH"
+        },
+        "text_42": {
+          "label": "H2: Thoughtful sourcing starts",
+          "type": "textarea",
+          "default": "Thoughtful sourcing starts"
+        },
+        "text_43": {
+          "label": "H2: with understanding the details.",
+          "type": "textarea",
+          "default": "with understanding the details."
+        },
+        "text_44": {
+          "label": "P: KOVA starts with the product requirements, then explores suitable supp",
+          "type": "textarea",
+          "default": "KOVA starts with the product requirements, then explores suitable supplier options and compares practical information to support informed decisions."
+        },
+        "text_45": {
+          "label": "P: Clear questions, transparent updates and consistent communication help",
+          "type": "textarea",
+          "default": "Clear questions, transparent updates and consistent communication help keep the agreed project stages moving. Scope, responsibilities and next steps are discussed before work begins."
+        },
+        "text_46": {
+          "label": "P: START WITH YOUR PRODUCT REQUIREMENTS",
+          "type": "textarea",
+          "default": "START WITH YOUR PRODUCT REQUIREMENTS"
+        },
+        "text_47": {
+          "label": "H2: Let's explore your next product opportunity.",
+          "type": "textarea",
+          "default": "Let's explore your next product opportunity."
+        },
+        "text_48": {
+          "label": "P: Share your product requirements, target quantities and customization i",
+          "type": "textarea",
+          "default": "Share your product requirements, target quantities and customization ideas. Let's discuss how KOVA can support your sourcing project in China."
+        },
+        "link_49": {
+          "label": "Destination: Explore Sourcing Services",
+          "type": "text",
+          "default": "sourcing-services.html",
+          "instructions": "Use the existing site link, #section, or an HTTPS URL."
+        },
+        "text_50": {
+          "label": "Link label: Explore Sourcing Services",
+          "type": "text",
+          "default": "Explore Sourcing Services "
+        },
+        "link_51": {
+          "label": "Destination: See How We Work",
+          "type": "text",
+          "default": "how-it-works.html",
+          "instructions": "Use the existing site link, #section, or an HTTPS URL."
+        },
+        "text_52": {
+          "label": "Link label: See How We Work",
+          "type": "text",
+          "default": "See How We Work "
+        },
+        "link_53": {
+          "label": "Destination: Start a Sourcing Inquiry",
+          "type": "text",
+          "default": "contact.html",
+          "instructions": "Use the existing site link, #section, or an HTTPS URL."
+        },
+        "text_54": {
+          "label": "Link label: Start a Sourcing Inquiry",
+          "type": "text",
+          "default": "Start a Sourcing Inquiry "
+        }
+      },
+      "html_class": "about-kova-page",
+      "description": "KOVA Sourcing is an independent B2B pet product sourcing and supplier coordination brand in Shenzhen, China, supporting international brands, importers and retailers."
+    },
+    "contact": {
+      "title": "Contact",
+      "slug": "contact",
+      "fields": {
+        "text_1": {
+          "label": "P: START A SOURCING INQUIRY",
+          "type": "textarea",
+          "default": "START A SOURCING INQUIRY"
+        },
+        "text_2": {
+          "label": "H1: A little detail.",
+          "type": "textarea",
+          "default": "A little detail."
+        },
+        "text_3": {
+          "label": "H1: A good beginning.",
+          "type": "textarea",
+          "default": "A good beginning."
+        },
+        "text_4": {
+          "label": "P: Tell us about your brand, product ideas and the sourcing support you’r",
+          "type": "textarea",
+          "default": "Tell us about your brand, product ideas and the sourcing support you’re looking for."
+        },
+        "text_5": {
+          "label": "H2: Good ideas start",
+          "type": "textarea",
+          "default": "Good ideas start"
+        },
+        "text_6": {
+          "label": "H2: with a simple brief.",
+          "type": "textarea",
+          "default": "with a simple brief."
+        },
+        "text_7": {
+          "label": "P: Tell us about your product ideas or sourcing requirements. We'll revie",
+          "type": "textarea",
+          "default": "Tell us about your product ideas or sourcing requirements. We'll review the details and discuss possible next steps."
+        },
+        "text_8": {
+          "label": "H3: Get in touch",
+          "type": "textarea",
+          "default": "Get in touch"
+        },
+        "text_9": {
+          "label": "DT: Business inquiries:",
+          "type": "textarea",
+          "default": "Business inquiries:"
+        },
+        "text_10": {
+          "label": "DT: Location:",
+          "type": "textarea",
+          "default": "Location:"
+        },
+        "text_11": {
+          "label": "DD: Shenzhen, China",
+          "type": "textarea",
+          "default": "Shenzhen, China"
+        },
+        "text_12": {
+          "label": "P: Independent B2B sourcing and supplier coordination for international p",
+          "type": "textarea",
+          "default": "Independent B2B sourcing and supplier coordination for international pet brands, importers and retailers."
+        },
+        "link_13": {
+          "label": "Destination: info@kovasourcing.com",
+          "type": "text",
+          "default": "mailto:info@kovasourcing.com",
+          "instructions": "Use the existing site link, #section, or an HTTPS URL."
+        },
+        "text_14": {
+          "label": "Link label: info@kovasourcing.com",
+          "type": "text",
+          "default": "info@kovasourcing.com"
+        }
+      },
+      "html_class": "contact-page",
+      "description": "Discuss your cat and dog product sourcing requirements with KOVA, an independent Shenzhen-based sourcing service. Online inquiry submission is being prepared for launch."
+    }
+  },
+  "categories": [
+    {
+      "key": "dog-1",
+      "title": "Dog Beds & Comfort",
+      "description": "Resting options to suit different dog sizes and everyday routines.",
+      "options": "Bolster beds, flat cushions, crate mats and removable covers.",
+      "customization": "Bouclé, cotton or linen-look fabrics; filling, sizes, cover colours, embroidery, labels and packaging.",
+      "image": "assets/images/individual/dog-phase2-a0.webp",
+      "alt": "AI-generated dog-specific concept illustrating Dog Beds & Comfort",
+      "order": 1,
+      "species": "dog"
+    },
+    {
+      "key": "dog-2",
+      "title": "Harnesses, Collars & Leashes",
+      "description": "Walking essentials with fit, function and finishing details in mind.",
+      "options": "Adjustable collars, dog harnesses, standard leads and coordinated walking sets.",
+      "customization": "Nylon or polyester webbing; fit ranges, widths, lengths, colourways, hardware finishes and labels.",
+      "image": "assets/images/individual/dog-phase2-a1.webp",
+      "alt": "AI-generated dog-specific concept illustrating Harnesses, Collars & Leashes",
+      "order": 2,
+      "species": "dog"
+    },
+    {
+      "key": "dog-3",
+      "title": "Dog Toys & Enrichment",
+      "description": "Dog-specific play formats for different sizes and play styles.",
+      "options": "Rope tug toys, chew toys, fetch toys and enrichment formats.",
+      "customization": "Cotton rope, rubber or textiles; toy sizes, textures, colours, set combinations and packaging.",
+      "image": "assets/images/individual/dog-phase2-a2.webp",
+      "alt": "AI-generated dog-specific concept illustrating Dog Toys & Enrichment",
+      "order": 3,
+      "species": "dog"
+    },
+    {
+      "key": "dog-4",
+      "title": "Feeding & Drinking",
+      "description": "Practical accessories for everyday dog feeding and hydration.",
+      "options": "Food and water bowls, feeding mats, slow-feeding bowls and travel dishes.",
+      "customization": "Ceramic, stainless steel or silicone; capacities, mat sizes, colours, suitable branding and packaging.",
+      "image": "assets/images/individual/dog-phase2-a3.webp",
+      "alt": "AI-generated dog-specific concept illustrating Feeding & Drinking",
+      "order": 4,
+      "species": "dog"
+    },
+    {
+      "key": "dog-5",
+      "title": "Dog Travel & Outdoor",
+      "description": "Accessories for journeys, days out and time away from home.",
+      "options": "Dog carriers, travel mats, vehicle seat covers and collapsible bowls.",
+      "customization": "Canvas, polyester, mesh or water-resistant textiles; sizes, straps, pockets, colours and labels.",
+      "image": "assets/images/individual/dog-phase2-b0.webp",
+      "alt": "AI-generated dog-specific concept illustrating Dog Travel & Outdoor",
+      "order": 5,
+      "species": "dog"
+    },
+    {
+      "key": "dog-6",
+      "title": "Grooming & Care",
+      "description": "Tools and accessories for different dog coat types and care routines.",
+      "options": "Slicker brushes, combs, grooming mitts and drying towels.",
+      "customization": "Wood or polymer handles, stainless steel, silicone or microfibre; tool styles, finishes, labels and sets.",
+      "image": "assets/images/individual/dog-phase2-b1.webp",
+      "alt": "AI-generated dog-specific concept illustrating Grooming & Care",
+      "order": 6,
+      "species": "dog"
+    },
+    {
+      "key": "dog-7",
+      "title": "Walking Accessories",
+      "description": "Useful small accessories for everyday dog walks.",
+      "options": "Waste-bag holders, treat pouches, portable water bottles and walking bags.",
+      "customization": "Woven fabric, silicone or suitable plastics; pouch sizes, closures, clips, colours, branding and packaging.",
+      "image": "assets/images/individual/dog-phase2-b2.webp",
+      "alt": "AI-generated dog-specific concept illustrating Walking Accessories",
+      "order": 7,
+      "species": "dog"
+    },
+    {
+      "key": "dog-8",
+      "title": "Dog Apparel & Accessories",
+      "description": "Clothing and accessories with dog fit and practical use in mind.",
+      "options": "Dog jumpers, raincoats, bandanas and seasonal accessories.",
+      "customization": "Knit fabrics or weather-resistant textiles; size grading, fastening options, colours, labels and packaging.",
+      "image": "assets/images/individual/dog-phase2-b3.webp",
+      "alt": "AI-generated dog-specific concept illustrating Dog Apparel & Accessories",
+      "order": 8,
+      "species": "dog"
+    }
+  ]
+}

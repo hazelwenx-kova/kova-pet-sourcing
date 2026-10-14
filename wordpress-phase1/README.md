@@ -1,3 +1,15 @@
+# KOVA custom WordPress theme — Phase 2
+
+Current theme/plugin packages are 0.2.0, adding five fixed editable pages to the verified Phase 1 build and preserving the 0.1.2 homepage tool. Folder names remain unchanged for safe WordPress replacement updates.
+
+Read [Phase 2 Chinese guide](PHASE2-GUIDE-ZH.md) and [Phase 2 validation](PHASE2-VALIDATION.md) first. Historical Phase 1 notes below describe the original milestone, not the current final navigation.
+
+New development files: `tools/build_phase2.py`, `kova-content/data/phase2-content.json`, `phase2-import.php`, `contact-integration.php`, five PHP templates, eight independent Dog image assets, Contact-only CSS/JS, and local tests. Do **not** rerun the Phase 1 generator to produce Phase 2: its templates/field keys/schema must remain unchanged.
+
+Contact uses a manually selected, explicitly enabled real Fluent Forms shortcode. Demo form ID 1 is not configured. No static submission handler or SMTP service is enabled by these packages.
+
+---
+
 # KOVA custom WordPress theme — Phase 1
 
 Fixed PHP layouts for Home and Cat Products, derived from the approved static `kova-preview` reference at `ae6327e5de6e2a0a0d0111a4e78c06ec33c08c33`.
